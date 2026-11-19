@@ -44,6 +44,10 @@ INSTALLED_APPS = [
     'django.contrib.sites',  # Required for allauth
     
     # Third-party apps
+<<<<<<< HEAD
+=======
+    'corsheaders',
+>>>>>>> f81bc8d (next changes)
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
@@ -59,6 +63,10 @@ SITE_ID = 1
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',  # WhiteNoise for static files
+<<<<<<< HEAD
+=======
+    'corsheaders.middleware.CorsMiddleware',  # CORS middleware
+>>>>>>> f81bc8d (next changes)
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -94,6 +102,7 @@ WSGI_APPLICATION = 'CognIQ.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/6.0/ref/settings/#databases
 
+<<<<<<< HEAD
 if config('DEBUG', cast=bool):
     DATABASES = {
     'default': {
@@ -105,6 +114,20 @@ else:
     print("Production DB is Active.")
     DATABASES = {
         'default': dj_database_url.parse(config('DB_DATABASE_URL'))
+=======
+DATABASE_URL = config('DATABASE_URL', default=config('DB_DATABASE_URL', default=''))
+
+if DATABASE_URL:
+    DATABASES = {
+        'default': dj_database_url.parse(DATABASE_URL)
+    }
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
+>>>>>>> f81bc8d (next changes)
     }
 
 # Password validation
@@ -228,3 +251,21 @@ else:
     # Local Storage Fallback (for development)
     MEDIA_URL = '/media/'
     MEDIA_ROOT = BASE_DIR / 'media'
+<<<<<<< HEAD
+=======
+
+# CORS and CSRF Configuration for Next.js Frontend
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:3000',
+    'http://127.0.0.1:3000',
+]
+CORS_ALLOW_CREDENTIALS = True
+CSRF_TRUSTED_ORIGINS = [
+    'http://localhost:3000',
+    'http://127.0.0.1:3000',
+]
+SESSION_COOKIE_SAMESITE = 'Lax'
+CSRF_COOKIE_SAMESITE = 'Lax'
+SESSION_COOKIE_HTTPONLY = True
+CSRF_COOKIE_HTTPONLY = False  # Allows frontend to read csrf token if needed
+>>>>>>> f81bc8d (next changes)

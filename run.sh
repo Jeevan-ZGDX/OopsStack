@@ -37,6 +37,7 @@ fi
 echo "Running migrations..."
 .venv/bin/python manage.py migrate --noinput
 
+<<<<<<< HEAD
 # Run Django development server
 HOST="${1:-127.0.0.1}"
 PORT="${2:-8000}"
@@ -49,3 +50,41 @@ echo " Press Ctrl+C to stop the server"
 echo "=========================================================="
 
 exec .venv/bin/python manage.py runserver "${HOST}:${PORT}"
+=======
+# Ensure frontend dependencies are installed
+if [ -d "frontend" ] && [ ! -d "frontend/node_modules" ]; then
+    echo "Installing Next.js frontend dependencies..."
+    (cd frontend && npm install)
+fi
+
+# Run servers
+BACKEND_PORT="${2:-8001}"
+FRONTEND_PORT="3000"
+
+echo "=========================================================="
+echo " 🚀 Starting CIT-CognIQ Full Stack System"
+echo " 🌐 Frontend (Next.js): http://localhost:${FRONTEND_PORT}"
+echo " ⚙️ Backend API (Django): http://127.0.0.1:${BACKEND_PORT}"
+echo " ---------------------------------------------------------"
+echo " 🔑 Demo Credentials:"
+echo "   • School Admin : admin       / adminpassword123"
+echo "   • Teacher      : tch_001     / teachpass123"
+echo "   • Student      : stu_aids_001 / studentpass123"
+echo " ---------------------------------------------------------"
+echo " Press Ctrl+C to stop both servers"
+echo "=========================================================="
+
+# Start Next.js frontend in background
+if [ -d "frontend/.next" ]; then
+    (cd frontend && npm run start) &
+else
+    (cd frontend && npm run dev) &
+fi
+FRONTEND_PID=$!
+
+# Trap Ctrl+C to kill background processes
+trap "kill $FRONTEND_PID 2>/dev/null || true; exit" SIGINT SIGTERM EXIT
+
+# Start Django backend in foreground
+.venv/bin/python manage.py runserver "127.0.0.1:${BACKEND_PORT}"
+>>>>>>> f81bc8d (next changes)

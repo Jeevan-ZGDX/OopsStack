@@ -1,0 +1,4888 @@
+[
+{
+  "model": "sessions.session",
+  "pk": "0hdmgn9iv7kea699hcio5rphlt3lsd9i",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQRO_iGln-hLVNSc8ZrLV3gwPIkeKkQtydWEoBzRTz3sxbRNzWErfGS5xIXITx4vRbJsxPrp3QA-t9lnmu6zIl2RV50CZvM_Hrerh_BwVb2deKtGJtDQRImpxnFc5oNCvrQBOATZBwzIx7Ds4Er6CzwVkmGnUSny_0izf7:1xTyU5:F0FMBdOkmoXCoo2qABc6AojDQnsXLNqFGwAMus71CTI",
+    "expire_date": "2026-12-03T09:31:13.803Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "1t748z1sy0h49feqsyixy0rdpji7abgn",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAotNNx6d4zkIEZpGpoUtqV8e7apAvd_vfef6lA21rC1mQJE6uz6tTpd4uUHlJ3wHeqt1mnua7LFPWu6IM2fZ1ZnpfD_Tso1Mq3djbbESUasIBZWIyzUcR5A-wz9-PACF56HICiQ0xJhFzuBDkzeVDvD-0ROLQ:1xTzcX:icJ24FilOy5erlN8Icps7c6uskufIQOwQtWMQLzKRx4",
+    "expire_date": "2026-12-03T10:44:01.995Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "28r2wb8n2u8lmbo0vdpm9gf630lv4rkv",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlnG6y8lfc5grT-LA8iW4qRC3B0ipYD2zcx7sYDbWsM2yhLmzC7szE6_W8T0KG0H-Y7t1nnqbV3myHeFH3TwqefyvB7u30HFUb91sUnLJAyhAO0s6WiSE9KCiSiBCI2I5BEKlqy889prq6RUpMBLB8DeH-MwN1M:1xTzcW:lPbjpLvQVg7SEJfG3lRB2sl74JKQG68Mpi4oHiTr3Lk",
+    "expire_date": "2026-12-03T10:44:00.674Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "3iv0dy6258p5kr34qsha5sem3b0jbmom",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCYDhRcuu8ZyACjVA0kpV0Z765NutDtf-_9lwi0rSVsnZcwZ3EWKE6_W6T04LqDfKd6azK1ui5zlLsiD9rl1DI_L4f7d1Col2_tVDIAiVmxo6hYAeVklPYZLIGJcNVorAPP44AeCUePg_MZk3XRgxbvD9y0NxQ:1xTy75:xpMWlSsJpGCho5OG_WElUawVkbgyd-_Vdyz25LtN-58",
+    "expire_date": "2026-12-03T09:07:27.393Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "a70xqsw797o2vo7wbffl91f28u4vl7de",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlnG6y8lfc5grT-LA8iW4qRC3B0ipYD2zcx7sYDbWsM2yhLmzC7szE6_W8T0KG0H-Y7t1nnqbV3myHeFH3TwqefyvB7u30HFUb91sUnLJAyhAO0s6WiSE9KCiSiBCI2I5BEKlqy889prq6RUpMBLB8DeH-MwN1M:1xTyKR:8f5bzDOfDvaQ-Lmzy3hezUMaXAJ987qHk1pHYSmB9EI",
+    "expire_date": "2026-12-03T09:21:15.003Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "b5ysk8onopunvkej19rc6gu5ee31b2t3",
+  "fields": {
+    "session_data": ".eJxVjLsOAiEQAP-F2hAIuAuW9n4DWViQUwPJPaqL_64kV2g7M5ldBNrWGrYlz2FicRFOnH5ZpPTMbQh-ULt3mXpb5ynKkcjDLvLWOb-uR_s3qLTUsQVWBlxiy4C-AGKKjorzZ5usRzRKa2_BGe0NaQRVlI6aIn1brzKL9wfEDDcG:1xTyR9:kKa5nkwE1XZ2MkYSGjq-v24oqESjPygNrJv4MRIKRsQ",
+    "expire_date": "2026-12-03T09:28:11.941Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "enq2ntj3d14hgn0xwkoc8zhehm5b7tpn",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSGFysule7-B3AdI1UBS2pXx322TLnR7Zua8RYR1KXHtaY4Ti4vQ4vS7IdAz1R3wA-q9SWp1mSeUuyIP2uWtcXpdD_fvoEAvW42UM2ajEZxCCiMqO1DIZwQw3njLlgZlFTqdOSgeDSibYdNNoOTYi88XFD846g:1xTy71:wav_zpALhG3fEi1OrEgbDv8RnnyAoqw1UZOmIfQmuK0",
+    "expire_date": "2026-12-03T09:07:23.182Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ff6fiixpc0asr85a4ia2gbc6its6t0eq",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlnG6y8lfc5grT-LA8iW4qRC3B0ipYD2zcx7sYDbWsM2yhLmzC7szE6_W8T0KG0H-Y7t1nnqbV3myHeFH3TwqefyvB7u30HFUb91sUnLJAyhAO0s6WiSE9KCiSiBCI2I5BEKlqy889prq6RUpMBLB8DeH-MwN1M:1xTyBT:4DzC_V_HP4dBt9QcpGG--KV4DW34OUuLwnT6oHr22JY",
+    "expire_date": "2026-12-03T09:11:59.233Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "g2z91cabitvdjuh1rcq2peuyszv47ncm",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-xhtKes5grb1rHECOFCcV4u4QKQW0b2beS0Tc1hq3zkucSJyFE6ffLWF-cNsB3bHdZpnnti5TkrsiD9rldSZ-Xg7376Bir98ahpRToMJEGCybrOzoGTl4Z8AGYPKDSbqUACqh127U3hTtbVAOwIF4fwAAuDeI:1xTyJX:3coW3qnQ2h-6w2BjI7OGKURi4EdzM4UlcK2CJOaOiac",
+    "expire_date": "2026-12-03T09:20:19.453Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "hwb61dlgq0feglvd4fdchp58p7j9p1yb",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlnG6y8lfc5grT-LA8iW4qRC3B0ipYD2zcx7sYDbWsM2yhLmzC7szE6_W8T0KG0H-Y7t1nnqbV3myHeFH3TwqefyvB7u30HFUb91sUnLJAyhAO0s6WiSE9KCiSiBCI2I5BEKlqy889prq6RUpMBLB8DeH-MwN1M:1xTyHt:jk7qZypKFl_2eOxunCxyr4F4L2UaL-9AVmLAxhVJqak",
+    "expire_date": "2026-12-03T09:18:37.059Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "i2kh7hzby9w0i8imlqujblg8p2qh9uqd",
+  "fields": {
+    "session_data": ".eJxVjLsOAiEQAP-F2hAIuAuW9n4DWViQUwPJPaqL_64kV2g7M5ldBNrWGrYlz2FicRFOnH5ZpPTMbQh-ULt3mXpb5ynKkcjDLvLWOb-uR_s3qLTUsQVWBlxiy4C-AGKKjorzZ5usRzRKa2_BGe0NaQRVlI6aIn1brzKL9wfEDDcG:1xTzgH:TwkCw5t8vGXGpfpTiFCyWvMNBKaratg9hBJmSoI_A8k",
+    "expire_date": "2026-12-03T10:47:53.708Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "kn6hhxko4wq5ft9muk89trvoz507o005",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAotNNx6d4zkIEZpGpoUtqV8e7apAvd_vfef6lA21rC1mQJE6uz6tTpd4uUHlJ3wHeqt1mnua7LFPWu6IM2fZ1ZnpfD_Tso1Mq3djbbESUasIBZWIyzUcR5A-wz9-PACF56HICiQ0xJhFzuBDkzeVDvD-0ROLQ:1xTyKS:lFe6DLw-B8OIw24BZz6w70KzJP4gypjkvp3jkZYAVHQ",
+    "expire_date": "2026-12-03T09:21:16.312Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "o70gnb8rrqd3vskgv1x3yw8auoe9c5jt",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-xhtKes5grb1rHECOFCcV4u4QKQW0b2beS0Tc1hq3zkucSJyFE6ffLWF-cNsB3bHdZpnnti5TkrsiD9rldSZ-Xg7376Bir98ahpRToMJEGCybrOzoGTl4Z8AGYPKDSbqUACqh127U3hTtbVAOwIF4fwAAuDeI:1xTzcZ:cEmYZToLBVYhb8BNFmzAxQDQOJa0ph_sPXVr0mfy628",
+    "expire_date": "2026-12-03T10:44:03.262Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "v20wcwrp2187sz8x4plruritnp0aunta",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-xhtKes5grb1rHECOFCcV4u4QKQW0b2beS0Tc1hq3zkucSJyFE6ffLWF-cNsB3bHdZpnnti5TkrsiD9rldSZ-Xg7376Bir98ahpRToMJEGCybrOzoGTl4Z8AGYPKDSbqUACqh127U3hTtbVAOwIF4fwAAuDeI:1xTyKT:6LCOrvrk-wfjKHqaecGcLGN4AOCP3eg5tSaJkex-MB4",
+    "expire_date": "2026-12-03T09:21:17.812Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "v2z4ffl13nj3tgmgrwfyhacgcca3yp43",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCYDhRcuu8ZyACjVA0kpV0Z765NutDtf-_9lwi0rSVsnZcwZ3EWKE6_W6T04LqDfKd6azK1ui5zlLsiD9rl1DI_L4f7d1Col2_tVDIAiVmxo6hYAeVklPYZLIGJcNVorAPP44AeCUePg_MZk3XRgxbvD9y0NxQ:1xTxwr:DQHaUH7-F1rCbymsfuhI8CLHe3kMEP9BbBFxPJLamfg",
+    "expire_date": "2026-12-03T08:56:53.945Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wcbmthgoegt87xovishfoktf1qwxrv67",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAotNNx6d4zkIEZpGpoUtqV8e7apAvd_vfef6lA21rC1mQJE6uz6tTpd4uUHlJ3wHeqt1mnua7LFPWu6IM2fZ1ZnpfD_Tso1Mq3djbbESUasIBZWIyzUcR5A-wz9-PACF56HICiQ0xJhFzuBDkzeVDvD-0ROLQ:1xTyJF:x6W-hW_nbtse6qBfmx2SjX2fIX8beJVh8Zm4LnKdbMk",
+    "expire_date": "2026-12-03T09:20:01.473Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wf6p0zigegg8cm4549vmv4p2kmxtbvpf",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlnG6y8lfc5grT-LA8iW4qRC3B0ipYD2zcx7sYDbWsM2yhLmzC7szE6_W8T0KG0H-Y7t1nnqbV3myHeFH3TwqefyvB7u30HFUb91sUnLJAyhAO0s6WiSE9KCiSiBCI2I5BEKlqy889prq6RUpMBLB8DeH-MwN1M:1xTy6x:TBenDAXn-DnkAN4grSbZwM_ektK0MaS6zp6gDIxyufg",
+    "expire_date": "2026-12-03T09:07:19.849Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wi3sgqzw9l6rb1mo9dh68dfq7i10p7q3",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQRO_iGln-7dpQ0nMGa_3DAWRLcVIh7k4ipYBimnlv5s08rUv168iznxK7MOnY6bcMFJ-57SQ9qN07j70t8xT4rvCDDn7rKb-uh_t3UGnUbX2OAZAEZuPAKQgoIAWXTUEMUGxRSqHWTgkhi41A0SS0RkuBW0QG9vkC8P424Q:1xTyTm:aLqGUqt3cZSnE5Zs1Jk1wi1exFF6xD-cHjiFW67fq9I",
+    "expire_date": "2026-12-03T09:30:54.504Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xtwfpnrky8x7zeuywuzkkpf2gbnkkbnc",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSGFysule7-B3AdI1UBS2pXx322TLnR7Zua8RYR1KXHtaY4Ti4vQ4vS7IdAz1R3wA-q9SWp1mSeUuyIP2uWtcXpdD_fvoEAvW42UM2ajEZxCCiMqO1DIZwQw3njLlgZlFTqdOSgeDSibYdNNoOTYi88XFD846g:1xTyA5:6wP2U4Na5SXBeYI_WmXmNiC9lhuKL_IjXyyIkq37wnI",
+    "expire_date": "2026-12-03T09:10:33.571Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "y5gk0g7ez5qd8hcthl8lmknrdbf07tpa",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCYDhRcuu8ZyACjVA0kpV0Z765NutDtf-_9lwi0rSVsnZcwZ3EWKE6_W6T04LqDfKd6azK1ui5zlLsiD9rl1DI_L4f7d1Col2_tVDIAiVmxo6hYAeVklPYZLIGJcNVorAPP44AeCUePg_MZk3XRgxbvD9y0NxQ:1xTyAS:w79URfJvhC7F3YL4Qu9KSVS2uPQuDt-os2lV4nVug0s",
+    "expire_date": "2026-12-03T09:10:56.907Z"
+  }
+},
+{
+  "model": "sites.site",
+  "fields": {
+    "domain": "example.com",
+    "name": "example.com"
+  }
+},
+{
+  "model": "myapp.school",
+  "pk": 1,
+  "fields": {
+    "name": "Coimbatore Institute of Technology",
+    "slug": "cit",
+    "address": "",
+    "phone": "",
+    "email": null,
+    "logo": "",
+    "is_active": true,
+    "created_at": "2026-11-15T06:08:36.287Z",
+    "updated_at": "2026-11-18T11:49:48.273Z"
+  }
+},
+{
+  "model": "myapp.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$VsASom1xzQkOVwhCIVDCDV$uUEdPSYXa7cVBFgzE5hAXwX4TsZu8SU0hthqlr+scgg=",
+    "last_login": "2026-11-19T10:44:00.457Z",
+    "is_superuser": true,
+    "first_name": "Platform",
+    "last_name": "Administrator",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-11-15T06:10:04.388Z",
+    "username": "admin",
+    "email": null,
+    "role": "admin",
+    "phone_number": null,
+    "batch": null,
+    "school": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$7Jtc3vLJGuZeque3HetZSw$LxBUFzMFRtFjfAkE7gSx4kkFtG1Gpg5sugxfwr+3dRg=",
+    "last_login": "2026-11-19T10:44:01.779Z",
+    "is_superuser": false,
+    "first_name": "Aris",
+    "last_name": "Thorne",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-11-18T11:49:48.725Z",
+    "username": "tch_001",
+    "email": "thorne@cit.edu",
+    "role": "teacher",
+    "phone_number": null,
+    "batch": null,
+    "school": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$OMgXpE1Nk7xCTYh1VOVbzo$Ejf8KniuzscwNJZHezDp+ZNMhjOiLGumD+4Kl7AqNsA=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Elena",
+    "last_name": "Vance",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-11-18T11:49:49.735Z",
+    "username": "tch_002",
+    "email": "vance@cit.edu",
+    "role": "teacher",
+    "phone_number": null,
+    "batch": null,
+    "school": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$p2Inb8Tn6MDQLF0tkBFMWg$WYXqZ8B91CT+g4zgpf1wcpqzmEDxsBpUIJigBMYhjE4=",
+    "last_login": "2026-11-19T10:44:03.046Z",
+    "is_superuser": false,
+    "first_name": "Alex",
+    "last_name": "Rivera",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-11-18T11:49:50.691Z",
+    "username": "stu_aids_001",
+    "email": null,
+    "role": "student",
+    "phone_number": null,
+    "batch": "2024-2028",
+    "school": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$MPU5TArqOFkuCr07wViwId$e+tM5MG26OyfjkQF9PyotXskvTmUewxy+Ip6fYZU+Ic=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Priya",
+    "last_name": "Sharma",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-11-18T11:49:51.702Z",
+    "username": "stu_aids_002",
+    "email": null,
+    "role": "student",
+    "phone_number": null,
+    "batch": "2024-2028",
+    "school": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$GWc2k5LoPI19Z5SVdZzhgV$BQdZcCmgpm1EnotvkRhNFk82A2quKBQaOOO/sONW/kY=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Marcus",
+    "last_name": "Chen",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-11-18T11:49:52.669Z",
+    "username": "stu_aids_003",
+    "email": null,
+    "role": "student",
+    "phone_number": null,
+    "batch": "2024-2028",
+    "school": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$TSHcuUoSRfMi5Fgh2jPxur$OoVC4SIIFSwBgRca0riD/L8HHpjNXxGSwDd4fiNuCYY=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Sarah",
+    "last_name": "Jenkins",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-11-18T11:49:53.668Z",
+    "username": "stu_aids_004",
+    "email": null,
+    "role": "student",
+    "phone_number": null,
+    "batch": "2024-2028",
+    "school": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$RGncXWQJmPLUE85FfZaZ8i$INK81rryZHLr6QC/k9rqUKQHvCuzCj4/Pyt5YGQ0h9k=",
+    "last_login": "2026-11-19T10:47:53.493Z",
+    "is_superuser": false,
+    "first_name": "Dr. Rajesh",
+    "last_name": "Natarajan",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-11-19T09:25:26.400Z",
+    "username": "admin_cit_01",
+    "email": "dean.academic@cit.edu",
+    "role": "admin",
+    "phone_number": "+91 98401 11001",
+    "batch": null,
+    "school": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$EAtKg00YlqfbaXfoy7V5tE$lxfcf3zE86S730JPAeTJ7qDo62rmBc5mcd1T20c7dzU=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Dr. Meenakshi",
+    "last_name": "Sundaram",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-11-19T09:25:27.397Z",
+    "username": "admin_cit_02",
+    "email": "coe@cit.edu",
+    "role": "admin",
+    "phone_number": "+91 98401 11002",
+    "batch": null,
+    "school": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$fndCKK7wPrFwlBljYq63Cr$0tKr6QaRWAYAYrtquEEKKyqn+QuJgE9PZBrdJId8Mus=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Dr. K. Senthil",
+    "last_name": "Kumar",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-11-19T09:25:28.374Z",
+    "username": "admin_cit_03",
+    "email": "registrar@cit.edu",
+    "role": "admin",
+    "phone_number": "+91 98401 11003",
+    "batch": null,
+    "school": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$1UIQIyj2soqpmMadNuH948$ZDd29d2Dq9HkqKs34hLyVWGlDc5aBw1Im/9V20ZJZNk=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Dr. Preetha",
+    "last_name": "Chandran",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-11-19T09:25:29.374Z",
+    "username": "admin_cit_04",
+    "email": "eval.director@cit.edu",
+    "role": "admin",
+    "phone_number": "+91 98401 11004",
+    "batch": null,
+    "school": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$y789V93x9X4hs0r4uyXLhv$r2lDSq9lUI2gZbaqu6YC7s8UVF7/HrR+7I9jAE7xv98=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Dr. Anandha",
+    "last_name": "Krishnan",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-11-19T09:25:30.430Z",
+    "username": "admin_cit_05",
+    "email": "assessment@cit.edu",
+    "role": "admin",
+    "phone_number": "+91 98401 11005",
+    "batch": null,
+    "school": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$ueWDCjYc2pTRY0laanVOij$0BUgJCf8CAjxKbb+kHUqenp6mojiXU9XTHPu7/m7dbg=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Dr. Subhashini",
+    "last_name": "Rao",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-11-19T09:25:31.396Z",
+    "username": "admin_cit_06",
+    "email": "iqac@cit.edu",
+    "role": "admin",
+    "phone_number": "+91 98401 11006",
+    "batch": null,
+    "school": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$UpB5OM0PMBPdP25LNu4c6I$vEmcsODfjvnYQke2Fxfabf4ROj1ZCQ6NCZFedV5mCfQ=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Dr. Venkatesh",
+    "last_name": "Raman",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-11-19T09:25:32.452Z",
+    "username": "admin_cit_07",
+    "email": "accreditation@cit.edu",
+    "role": "admin",
+    "phone_number": "+91 98401 11007",
+    "batch": null,
+    "school": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$bEsWnjM5ySmqkk6HIspi25$/i+6UzNR8DLuwsxG4TRxmWj0W0OFiCzep7VYhDakepw=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Dr. Kavitha",
+    "last_name": "Selvam",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-11-19T09:25:33.429Z",
+    "username": "admin_cit_08",
+    "email": "curriculum@cit.edu",
+    "role": "admin",
+    "phone_number": "+91 98401 11008",
+    "batch": null,
+    "school": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$FLhTyQLTfesfp8zvJ4MiZq$ogcj8B5y/e1Sb2zdlH7Vif8Imw4+KmW4o5AbQ0G1Rgo=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Dr. Balaji",
+    "last_name": "Murugan",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-11-19T09:25:34.496Z",
+    "username": "admin_cit_09",
+    "email": "dean.admin@cit.edu",
+    "role": "admin",
+    "phone_number": "+91 98401 11009",
+    "batch": null,
+    "school": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$kddlrz6YzszF0v4AWevuzd$tNlbrrzC2kqf812cvVvgyqSRlcsbUjF4HS1CyapYaEE=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Dr. Shalini",
+    "last_name": "Parthasarathy",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-11-19T09:25:35.530Z",
+    "username": "admin_cit_10",
+    "email": "research.eval@cit.edu",
+    "role": "admin",
+    "phone_number": "+91 98401 11010",
+    "batch": null,
+    "school": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$nZUgfb8dreZCf2FuRPHZBm$40wup+YppIq3vRj7e97ydHRl364oxZ4TQ3TquBQIT00=",
+    "last_login": "2026-11-19T09:30:54.299Z",
+    "is_superuser": false,
+    "first_name": "Dr. Vikram",
+    "last_name": "Seth",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-11-19T09:25:36.776Z",
+    "username": "tch_003",
+    "email": "vikram.seth@cit.edu",
+    "role": "teacher",
+    "phone_number": null,
+    "batch": null,
+    "school": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$yyJLlNmaoJkIzRk2CDz6KP$DcG7/Ce44c3NmtwYvT3cArB9phybFxXuGsKB6gh/IkQ=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Prof. Sunita",
+    "last_name": "Menon",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-11-19T09:25:43.054Z",
+    "username": "tch_004",
+    "email": "sunita.menon@cit.edu",
+    "role": "teacher",
+    "phone_number": null,
+    "batch": null,
+    "school": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$awT3fAOQSfNzE6ZlbXksfO$mB3Dy4UO007RpXgG7TlHOxj8/R24qgRm3IEdv2vvI9M=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Dr. Arjun",
+    "last_name": "Raghavan",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-11-19T09:25:49.343Z",
+    "username": "tch_005",
+    "email": "arjun.raghavan@cit.edu",
+    "role": "teacher",
+    "phone_number": null,
+    "batch": null,
+    "school": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$e6PnNjE557LGOnsL1KLUbC$YvL9ae8CByxK7lLOe/kIiFlUWVuWvzyWa+Qv84mjzes=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Prof. Deepa",
+    "last_name": "Narayanan",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-11-19T09:25:54.377Z",
+    "username": "tch_006",
+    "email": "deepa.narayanan@cit.edu",
+    "role": "teacher",
+    "phone_number": null,
+    "batch": null,
+    "school": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$9uFKl39xYAihv4uFRYynlP$GN3LU7CRi8hUFdztZivWMgapdpoq1BwMiCwokt+Fjrs=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Dr. Karthik",
+    "last_name": "Iyer",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-11-19T09:25:59.977Z",
+    "username": "tch_007",
+    "email": "karthik.iyer@cit.edu",
+    "role": "teacher",
+    "phone_number": null,
+    "batch": null,
+    "school": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$uj84lTYfGXqXPZ2NhYILxK$CEK1HM6EJzLEx6+1OLhi0Q3PKZ7VuPk34y0ih0X+eio=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Prof. Ananya",
+    "last_name": "Joshi",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-11-19T09:26:05.577Z",
+    "username": "tch_008",
+    "email": "ananya.joshi@cit.edu",
+    "role": "teacher",
+    "phone_number": null,
+    "batch": null,
+    "school": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$apZ0WT6hXC4Tgrl2WVew0B$Q0bl4tUFN3p39b6o5V+R6E/vZwyjjMTp4i34WsUvQHw=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Dr. Rakesh",
+    "last_name": "Varma",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-11-19T09:26:09.200Z",
+    "username": "tch_009",
+    "email": "rakesh.varma@cit.edu",
+    "role": "teacher",
+    "phone_number": null,
+    "batch": null,
+    "school": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$gpiDXMVzWfzYUtMDR0b2Go$H0NE2zJKmUic7pa8u9+3i+zWCPXjUAXfdPRrqc5pf/I=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Prof. Lavanya",
+    "last_name": "Swaminathan",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-11-19T09:26:15.112Z",
+    "username": "tch_010",
+    "email": "lavanya.s@cit.edu",
+    "role": "teacher",
+    "phone_number": null,
+    "batch": null,
+    "school": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$bQJJpC674ZMr4ZXQcUREpa$vM7TUqXo7WfKJJejZxSh1t9x+LniYPszdKMDtEa2nZw=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Dr. Harish",
+    "last_name": "Chandra",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-11-19T09:26:20.678Z",
+    "username": "tch_011",
+    "email": "harish.chandra@cit.edu",
+    "role": "teacher",
+    "phone_number": null,
+    "batch": null,
+    "school": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$rRxGM1OXnvLCaIQ8zl1ua4$v41aZiNu281YPXgHON0tJTt0P6NEtX4Oef+hJXEEDZY=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Prof. Nithya",
+    "last_name": "Kalyani",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-11-19T09:26:26.167Z",
+    "username": "tch_012",
+    "email": "nithya.kalyani@cit.edu",
+    "role": "teacher",
+    "phone_number": null,
+    "batch": null,
+    "school": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$t3ddDNUKJ4odKN6CIxGCfH$gW4HMrspu/A/AVPZfU0omc3djujBdq9yjyv3lTQlfuM=",
+    "last_login": "2026-11-19T09:31:13.598Z",
+    "is_superuser": false,
+    "first_name": "Aarav",
+    "last_name": "Patel",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-11-19T09:26:30.368Z",
+    "username": "stu_001",
+    "email": "aarav.patel@cit.edu",
+    "role": "student",
+    "phone_number": "+91 98765 43201",
+    "batch": "2024-2028",
+    "school": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$KbSCc3lMLeGojNyyeMNV7C$RkFEoCk9lZxA9VXAQRfhJD57l/cF8khcT68dDwXLZ6M=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Diya",
+    "last_name": "Sharma",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-11-19T09:26:38.642Z",
+    "username": "stu_002",
+    "email": "diya.sharma@cit.edu",
+    "role": "student",
+    "phone_number": "+91 98765 43202",
+    "batch": "2024-2028",
+    "school": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$YwCzxRA6xt6bfnRfQL4tdc$mN6eG/HtkYRTMG9z4+WDHtKQbTP/jnZAf7ptYlG2TpI=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Rohan",
+    "last_name": "Varma",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-11-19T09:26:44.854Z",
+    "username": "stu_003",
+    "email": "rohan.varma@cit.edu",
+    "role": "student",
+    "phone_number": "+91 98765 43203",
+    "batch": "2024-2028",
+    "school": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$nYdqyddSId7KEHE88d3V7W$LiVHZ6yTcGOhfWP3prnLLfJdHh4dUhTTOTCfpKh1gjY=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Ananya",
+    "last_name": "Reddy",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-11-19T09:26:52.499Z",
+    "username": "stu_004",
+    "email": "ananya.reddy@cit.edu",
+    "role": "student",
+    "phone_number": "+91 98765 43204",
+    "batch": "2024-2028",
+    "school": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$Ac2ld8o139qXRGL0ShNvsc$Ttp8i086OQgUUiqwv3z1pKSaoE9dSK6BLmBZImDjW5Q=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Siddharth",
+    "last_name": "Nair",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-11-19T09:27:01.910Z",
+    "username": "stu_005",
+    "email": "siddharth.nair@cit.edu",
+    "role": "student",
+    "phone_number": "+91 98765 43205",
+    "batch": "2024-2028",
+    "school": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$QSXLt0JB2pGT0opj6V5yir$omAGVLmFuXIHY9E1hqKNdW8RFRzTVULic9r93caj23M=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Pooja",
+    "last_name": "Hegde",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-11-19T09:27:09.067Z",
+    "username": "stu_006",
+    "email": "pooja.hegde@cit.edu",
+    "role": "student",
+    "phone_number": "+91 98765 43206",
+    "batch": "2024-2028",
+    "school": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$QlZUpfkKAImFEyOwWo2wjw$dYinhw3OuLW2vdopzEt0SkR48JOrUlfvFKzcclTSjAw=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Vivek",
+    "last_name": "Subramanian",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-11-19T09:27:15.834Z",
+    "username": "stu_007",
+    "email": "vivek.s@cit.edu",
+    "role": "student",
+    "phone_number": "+91 98765 43207",
+    "batch": "2024-2028",
+    "school": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$LdAHJgJG6EthCpKUoAo53k$BqG7rBI0i4olOeMug+qN3KJEeGA7ZgKV7LXyVhm8bxU=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Sneha",
+    "last_name": "Kulkarni",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-11-19T09:27:23.101Z",
+    "username": "stu_008",
+    "email": "sneha.k@cit.edu",
+    "role": "student",
+    "phone_number": "+91 98765 43208",
+    "batch": "2024-2028",
+    "school": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$8ModQujhJ4GaigMxeIQXwd$sX1LuoN1qy8awVeG6si+oFVKthfiVBJYUpI1PzU+K2A=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Rahul",
+    "last_name": "Mukherjee",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-11-19T09:27:29.625Z",
+    "username": "stu_009",
+    "email": "rahul.m@cit.edu",
+    "role": "student",
+    "phone_number": "+91 98765 43209",
+    "batch": "2024-2028",
+    "school": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$9aR65tyWWoC7GnT1WD65p1$m13cX6TrYVIh0UJqnM559KFAwyVq200USex+LEd9tyU=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "Tanya",
+    "last_name": "Deshmukh",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-11-19T09:27:36.791Z",
+    "username": "stu_010",
+    "email": "tanya.d@cit.edu",
+    "role": "student",
+    "phone_number": "+91 98765 43210",
+    "batch": "2024-2028",
+    "school": 1,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.studentclass",
+  "pk": 1,
+  "fields": {
+    "name": "AI & Data Science - Alpha",
+    "description": "Department of AI & DS, 2024-2028 Batch.",
+    "batch": "2024-2028",
+    "department": "Artificial Intelligence & Data Science",
+    "school": 1,
+    "created_by": [
+      "tch_001"
+    ],
+    "is_active": true,
+    "enrollment_code": "AIDS2024",
+    "allow_self_enrollment": true,
+    "created_at": "2026-11-18T11:49:54.682Z",
+    "updated_at": "2026-11-18T11:49:54.968Z",
+    "students": [
+      [
+        "stu_aids_004"
+      ],
+      [
+        "stu_aids_003"
+      ],
+      [
+        "stu_aids_002"
+      ],
+      [
+        "stu_aids_001"
+      ]
+    ]
+  }
+},
+{
+  "model": "myapp.studentclass",
+  "pk": 2,
+  "fields": {
+    "name": "CSE Core - Batch 2024",
+    "description": "Department of Computer Science, Section B.",
+    "batch": "2024-2028",
+    "department": "Computer Science Engineering",
+    "school": 1,
+    "created_by": [
+      "tch_002"
+    ],
+    "is_active": true,
+    "enrollment_code": "CSEC2024",
+    "allow_self_enrollment": true,
+    "created_at": "2026-11-18T11:49:55.425Z",
+    "updated_at": "2026-11-18T11:49:55.656Z",
+    "students": []
+  }
+},
+{
+  "model": "myapp.studentclass",
+  "pk": 3,
+  "fields": {
+    "name": "CSE - Operating Systems & Concurrency",
+    "description": "Official cohort for CSE - Operating Systems & Concurrency",
+    "batch": "2024-2028",
+    "department": "Computer Science Engineering",
+    "school": 1,
+    "created_by": [
+      "tch_003"
+    ],
+    "is_active": true,
+    "enrollment_code": "CSEOS024",
+    "allow_self_enrollment": true,
+    "created_at": "2026-11-19T09:25:37.810Z",
+    "updated_at": "2026-11-19T09:25:38.029Z",
+    "students": [
+      [
+        "stu_010"
+      ],
+      [
+        "stu_009"
+      ],
+      [
+        "stu_001"
+      ]
+    ]
+  }
+},
+{
+  "model": "myapp.studentclass",
+  "pk": 4,
+  "fields": {
+    "name": "AIDS - Deep Learning & Neural Architectures",
+    "description": "Official cohort for AIDS - Deep Learning & Neural Architectures",
+    "batch": "2024-2028",
+    "department": "Artificial Intelligence & Data Science",
+    "school": 1,
+    "created_by": [
+      "tch_004"
+    ],
+    "is_active": true,
+    "enrollment_code": "AIDS24DL",
+    "allow_self_enrollment": true,
+    "created_at": "2026-11-19T09:25:43.999Z",
+    "updated_at": "2026-11-19T09:25:44.219Z",
+    "students": [
+      [
+        "stu_010"
+      ],
+      [
+        "stu_002"
+      ],
+      [
+        "stu_001"
+      ]
+    ]
+  }
+},
+{
+  "model": "myapp.studentclass",
+  "pk": 5,
+  "fields": {
+    "name": "IT - Distributed Systems & Cloud Platforms",
+    "description": "Official cohort for IT - Distributed Systems & Cloud Platforms",
+    "batch": "2024-2028",
+    "department": "Information Technology",
+    "school": 1,
+    "created_by": [
+      "tch_005"
+    ],
+    "is_active": true,
+    "enrollment_code": "ITDIST24",
+    "allow_self_enrollment": true,
+    "created_at": "2026-11-19T09:25:50.266Z",
+    "updated_at": "2026-11-19T09:25:50.486Z",
+    "students": [
+      [
+        "stu_003"
+      ],
+      [
+        "stu_002"
+      ],
+      [
+        "stu_001"
+      ]
+    ]
+  }
+},
+{
+  "model": "myapp.studentclass",
+  "pk": 6,
+  "fields": {
+    "name": "ECE - Digital Signal Processing & VLSI",
+    "description": "Official cohort for ECE - Digital Signal Processing & VLSI",
+    "batch": "2024-2028",
+    "department": "Electronics & Communication Engineering",
+    "school": 1,
+    "created_by": [
+      "tch_006"
+    ],
+    "is_active": true,
+    "enrollment_code": "ECEDSP24",
+    "allow_self_enrollment": true,
+    "created_at": "2026-11-19T09:25:55.478Z",
+    "updated_at": "2026-11-19T09:25:55.875Z",
+    "students": [
+      [
+        "stu_004"
+      ],
+      [
+        "stu_003"
+      ],
+      [
+        "stu_002"
+      ]
+    ]
+  }
+},
+{
+  "model": "myapp.studentclass",
+  "pk": 7,
+  "fields": {
+    "name": "Mech - Applied Thermodynamics & FEA",
+    "description": "Official cohort for Mech - Applied Thermodynamics & FEA",
+    "batch": "2024-2028",
+    "department": "Mechanical Engineering",
+    "school": 1,
+    "created_by": [
+      "tch_007"
+    ],
+    "is_active": true,
+    "enrollment_code": "MECHFE24",
+    "allow_self_enrollment": true,
+    "created_at": "2026-11-19T09:26:00.999Z",
+    "updated_at": "2026-11-19T09:26:01.220Z",
+    "students": [
+      [
+        "stu_005"
+      ],
+      [
+        "stu_004"
+      ],
+      [
+        "stu_003"
+      ]
+    ]
+  }
+},
+{
+  "model": "myapp.studentclass",
+  "pk": 8,
+  "fields": {
+    "name": "EEE - Smart Grids & Power Electronics",
+    "description": "Official cohort for EEE - Smart Grids & Power Electronics",
+    "batch": "2024-2028",
+    "department": "Electrical & Electronics Engineering",
+    "school": 1,
+    "created_by": [
+      "tch_008"
+    ],
+    "is_active": true,
+    "enrollment_code": "EEESMG24",
+    "allow_self_enrollment": true,
+    "created_at": "2026-11-19T09:26:06.545Z",
+    "updated_at": "2026-11-19T09:26:06.764Z",
+    "students": [
+      [
+        "stu_006"
+      ],
+      [
+        "stu_005"
+      ],
+      [
+        "stu_004"
+      ]
+    ]
+  }
+},
+{
+  "model": "myapp.studentclass",
+  "pk": 9,
+  "fields": {
+    "name": "CyberSec - Applied Cryptography & Defense",
+    "description": "Official cohort for CyberSec - Applied Cryptography & Defense",
+    "batch": "2024-2028",
+    "department": "CSE (Cyber Security)",
+    "school": 1,
+    "created_by": [
+      "tch_009"
+    ],
+    "is_active": true,
+    "enrollment_code": "CYBERD24",
+    "allow_self_enrollment": true,
+    "created_at": "2026-11-19T09:26:10.689Z",
+    "updated_at": "2026-11-19T09:26:10.976Z",
+    "students": [
+      [
+        "stu_007"
+      ],
+      [
+        "stu_006"
+      ],
+      [
+        "stu_005"
+      ]
+    ]
+  }
+},
+{
+  "model": "myapp.studentclass",
+  "pk": 10,
+  "fields": {
+    "name": "AIML - Natural Language Processing & LLMs",
+    "description": "Official cohort for AIML - Natural Language Processing & LLMs",
+    "batch": "2024-2028",
+    "department": "CSE (AI and Machine Learning)",
+    "school": 1,
+    "created_by": [
+      "tch_010"
+    ],
+    "is_active": true,
+    "enrollment_code": "AIMLLM24",
+    "allow_self_enrollment": true,
+    "created_at": "2026-11-19T09:26:16.511Z",
+    "updated_at": "2026-11-19T09:26:16.865Z",
+    "students": [
+      [
+        "stu_008"
+      ],
+      [
+        "stu_007"
+      ],
+      [
+        "stu_006"
+      ]
+    ]
+  }
+},
+{
+  "model": "myapp.studentclass",
+  "pk": 11,
+  "fields": {
+    "name": "BME - Physiological Instrumentation",
+    "description": "Official cohort for BME - Physiological Instrumentation",
+    "batch": "2024-2028",
+    "department": "Biomedical Engineering",
+    "school": 1,
+    "created_by": [
+      "tch_011"
+    ],
+    "is_active": true,
+    "enrollment_code": "BMEPHY24",
+    "allow_self_enrollment": true,
+    "created_at": "2026-11-19T09:26:22.090Z",
+    "updated_at": "2026-11-19T09:26:22.454Z",
+    "students": [
+      [
+        "stu_009"
+      ],
+      [
+        "stu_008"
+      ],
+      [
+        "stu_007"
+      ]
+    ]
+  }
+},
+{
+  "model": "myapp.studentclass",
+  "pk": 12,
+  "fields": {
+    "name": "Civil - Structural Analysis & Geotech",
+    "description": "Official cohort for Civil - Structural Analysis & Geotech",
+    "batch": "2024-2028",
+    "department": "Civil Engineering",
+    "school": 1,
+    "created_by": [
+      "tch_012"
+    ],
+    "is_active": true,
+    "enrollment_code": "CIVILS24",
+    "allow_self_enrollment": true,
+    "created_at": "2026-11-19T09:26:27.412Z",
+    "updated_at": "2026-11-19T09:26:27.699Z",
+    "students": [
+      [
+        "stu_010"
+      ],
+      [
+        "stu_009"
+      ],
+      [
+        "stu_008"
+      ]
+    ]
+  }
+},
+{
+  "model": "myapp.exam",
+  "pk": 1,
+  "fields": {
+    "title": "GATE: Algorithms & Computational Complexity",
+    "subject": "GATE",
+    "description": "Comprehensive assessment covering Dijkstra, Floyd-Warshall, and Master Theorem complexity analysis.",
+    "department": "Artificial Intelligence & Data Science",
+    "chapter": "Graph Algorithms & Asymptotic Notation",
+    "exam_type": "practice_test",
+    "is_cloned": false,
+    "school": 1,
+    "created_by": [
+      "tch_001"
+    ],
+    "duration_minutes": 15,
+    "total_marks": 8,
+    "pass_percentage": 50,
+    "created_at": "2026-11-18T11:49:55.889Z",
+    "updated_at": "2026-11-18T11:49:55.889Z",
+    "assigned_classes": [
+      1
+    ]
+  }
+},
+{
+  "model": "myapp.exam",
+  "pk": 2,
+  "fields": {
+    "title": "Aptitude: Quantitative & Logical Speed Test",
+    "subject": "Aptitude",
+    "description": "Speed evaluation for placement readiness and campus recruitment drives.",
+    "department": "Computer Science Engineering",
+    "chapter": "Combinatorics & Speed Math",
+    "exam_type": "test",
+    "is_cloned": false,
+    "school": 1,
+    "created_by": [
+      "tch_002"
+    ],
+    "duration_minutes": 10,
+    "total_marks": 6,
+    "pass_percentage": 40,
+    "created_at": "2026-11-18T11:50:02.382Z",
+    "updated_at": "2026-11-18T11:50:02.382Z",
+    "assigned_classes": [
+      1
+    ]
+  }
+},
+{
+  "model": "myapp.exam",
+  "pk": 3,
+  "fields": {
+    "title": "GATE: Operating Systems & Memory Virtualization",
+    "subject": "GATE",
+    "description": "Advanced examination on FIFO vs LRU anomaly, TLB hit rates, and page table structures.",
+    "department": "Computer Science Engineering",
+    "chapter": "Virtual Memory & Page Replacement",
+    "exam_type": "practice_test",
+    "is_cloned": false,
+    "school": 1,
+    "created_by": [
+      "tch_002"
+    ],
+    "duration_minutes": 20,
+    "total_marks": 0,
+    "pass_percentage": 50,
+    "created_at": "2026-11-18T11:50:07.449Z",
+    "updated_at": "2026-11-18T11:50:07.449Z",
+    "assigned_classes": []
+  }
+},
+{
+  "model": "myapp.exam",
+  "pk": 4,
+  "fields": {
+    "title": "OS Kernels, Threads & Synchronization",
+    "subject": "GATE",
+    "description": "",
+    "department": "Computer Science Engineering",
+    "chapter": "Operating Systems",
+    "exam_type": "practice_test",
+    "is_cloned": false,
+    "school": 1,
+    "created_by": [
+      "tch_003"
+    ],
+    "duration_minutes": 20,
+    "total_marks": 6,
+    "pass_percentage": 50,
+    "created_at": "2026-11-19T09:25:38.250Z",
+    "updated_at": "2026-11-19T09:25:38.250Z",
+    "assigned_classes": [
+      3
+    ]
+  }
+},
+{
+  "model": "myapp.exam",
+  "pk": 5,
+  "fields": {
+    "title": "Deep Learning: Backprop & Transformers",
+    "subject": "GATE",
+    "description": "",
+    "department": "Artificial Intelligence & Data Science",
+    "chapter": "Machine Learning",
+    "exam_type": "practice_test",
+    "is_cloned": false,
+    "school": 1,
+    "created_by": [
+      "tch_004"
+    ],
+    "duration_minutes": 20,
+    "total_marks": 6,
+    "pass_percentage": 50,
+    "created_at": "2026-11-19T09:25:44.439Z",
+    "updated_at": "2026-11-19T09:25:44.439Z",
+    "assigned_classes": [
+      4
+    ]
+  }
+},
+{
+  "model": "myapp.exam",
+  "pk": 6,
+  "fields": {
+    "title": "Distributed Consensus & CAP Theorem",
+    "subject": "GATE",
+    "description": "",
+    "department": "Information Technology",
+    "chapter": "Distributed Systems",
+    "exam_type": "practice_test",
+    "is_cloned": false,
+    "school": 1,
+    "created_by": [
+      "tch_005"
+    ],
+    "duration_minutes": 20,
+    "total_marks": 4,
+    "pass_percentage": 50,
+    "created_at": "2026-11-19T09:25:50.706Z",
+    "updated_at": "2026-11-19T09:25:50.706Z",
+    "assigned_classes": [
+      5
+    ]
+  }
+},
+{
+  "model": "myapp.exam",
+  "pk": 7,
+  "fields": {
+    "title": "DSP: Fourier Transforms & Z-Transforms",
+    "subject": "GATE",
+    "description": "",
+    "department": "Electronics & Communication Engineering",
+    "chapter": "Signal Processing",
+    "exam_type": "practice_test",
+    "is_cloned": false,
+    "school": 1,
+    "created_by": [
+      "tch_006"
+    ],
+    "duration_minutes": 20,
+    "total_marks": 4,
+    "pass_percentage": 50,
+    "created_at": "2026-11-19T09:25:56.096Z",
+    "updated_at": "2026-11-19T09:25:56.096Z",
+    "assigned_classes": [
+      6
+    ]
+  }
+},
+{
+  "model": "myapp.exam",
+  "pk": 8,
+  "fields": {
+    "title": "Thermodynamics & Heat Transfer Fundamentals",
+    "subject": "GATE",
+    "description": "",
+    "department": "Mechanical Engineering",
+    "chapter": "Thermodynamics",
+    "exam_type": "practice_test",
+    "is_cloned": false,
+    "school": 1,
+    "created_by": [
+      "tch_007"
+    ],
+    "duration_minutes": 20,
+    "total_marks": 4,
+    "pass_percentage": 50,
+    "created_at": "2026-11-19T09:26:01.574Z",
+    "updated_at": "2026-11-19T09:26:01.574Z",
+    "assigned_classes": [
+      7
+    ]
+  }
+},
+{
+  "model": "myapp.exam",
+  "pk": 9,
+  "fields": {
+    "title": "Power Converters & Inverter Control",
+    "subject": "GATE",
+    "description": "",
+    "department": "Electrical & Electronics Engineering",
+    "chapter": "Power Systems",
+    "exam_type": "practice_test",
+    "is_cloned": false,
+    "school": 1,
+    "created_by": [
+      "tch_008"
+    ],
+    "duration_minutes": 20,
+    "total_marks": 2,
+    "pass_percentage": 50,
+    "created_at": "2026-11-19T09:26:06.985Z",
+    "updated_at": "2026-11-19T09:26:06.985Z",
+    "assigned_classes": [
+      8
+    ]
+  }
+},
+{
+  "model": "myapp.exam",
+  "pk": 10,
+  "fields": {
+    "title": "Public Key Cryptography & PKI",
+    "subject": "GATE",
+    "description": "",
+    "department": "CSE (Cyber Security)",
+    "chapter": "Cybersecurity",
+    "exam_type": "practice_test",
+    "is_cloned": false,
+    "school": 1,
+    "created_by": [
+      "tch_009"
+    ],
+    "duration_minutes": 20,
+    "total_marks": 4,
+    "pass_percentage": 50,
+    "created_at": "2026-11-19T09:26:11.196Z",
+    "updated_at": "2026-11-19T09:26:11.197Z",
+    "assigned_classes": [
+      9
+    ]
+  }
+},
+{
+  "model": "myapp.exam",
+  "pk": 11,
+  "fields": {
+    "title": "NLP: Tokenization, Embeddings & Attention",
+    "subject": "GATE",
+    "description": "",
+    "department": "CSE (AI and Machine Learning)",
+    "chapter": "Natural Language Processing",
+    "exam_type": "practice_test",
+    "is_cloned": false,
+    "school": 1,
+    "created_by": [
+      "tch_010"
+    ],
+    "duration_minutes": 20,
+    "total_marks": 2,
+    "pass_percentage": 50,
+    "created_at": "2026-11-19T09:26:17.208Z",
+    "updated_at": "2026-11-19T09:26:17.208Z",
+    "assigned_classes": [
+      10
+    ]
+  }
+},
+{
+  "model": "myapp.exam",
+  "pk": 12,
+  "fields": {
+    "title": "Biopotential Amplifiers & Electrodes",
+    "subject": "GATE",
+    "description": "",
+    "department": "Biomedical Engineering",
+    "chapter": "Biomedical Engineering",
+    "exam_type": "practice_test",
+    "is_cloned": false,
+    "school": 1,
+    "created_by": [
+      "tch_011"
+    ],
+    "duration_minutes": 20,
+    "total_marks": 2,
+    "pass_percentage": 50,
+    "created_at": "2026-11-19T09:26:22.808Z",
+    "updated_at": "2026-11-19T09:26:22.808Z",
+    "assigned_classes": [
+      11
+    ]
+  }
+},
+{
+  "model": "myapp.exam",
+  "pk": 13,
+  "fields": {
+    "title": "Structural Mechanics & Concrete Technology",
+    "subject": "GATE",
+    "description": "",
+    "department": "Civil Engineering",
+    "chapter": "Structural Engineering",
+    "exam_type": "practice_test",
+    "is_cloned": false,
+    "school": 1,
+    "created_by": [
+      "tch_012"
+    ],
+    "duration_minutes": 20,
+    "total_marks": 2,
+    "pass_percentage": 50,
+    "created_at": "2026-11-19T09:26:27.920Z",
+    "updated_at": "2026-11-19T09:26:27.920Z",
+    "assigned_classes": [
+      12
+    ]
+  }
+},
+{
+  "model": "myapp.question",
+  "pk": 1,
+  "fields": {
+    "school": 1,
+    "created_by": [
+      "tch_001"
+    ],
+    "subject": "GATE",
+    "department": "Artificial Intelligence & Data Science",
+    "chapter": "Graph Algorithms",
+    "question_text": "What is the worst-case time complexity of Dijkstra algorithm implemented using a binary min-heap for a graph with V vertices and E edges?",
+    "marks": 2,
+    "explanation": "With a binary heap, each extract-min takes O(log V) time (V times), and decrease-key takes O(log V) time (up to E times), yielding O((V + E) log V).",
+    "created_at": "2026-11-18T11:49:56.648Z",
+    "updated_at": "2026-11-18T11:49:56.649Z"
+  }
+},
+{
+  "model": "myapp.question",
+  "pk": 2,
+  "fields": {
+    "school": 1,
+    "created_by": [
+      "tch_001"
+    ],
+    "subject": "GATE",
+    "department": "Artificial Intelligence & Data Science",
+    "chapter": "Graph Algorithms",
+    "question_text": "Which algorithmic paradigm does Floyd-Warshall all-pairs shortest path algorithm use?",
+    "marks": 2,
+    "explanation": "Floyd-Warshall iteratively solves subproblems by considering intermediate vertices k from 1 to n using dynamic programming.",
+    "created_at": "2026-11-18T11:49:58.059Z",
+    "updated_at": "2026-11-18T11:49:58.059Z"
+  }
+},
+{
+  "model": "myapp.question",
+  "pk": 3,
+  "fields": {
+    "school": 1,
+    "created_by": [
+      "tch_001"
+    ],
+    "subject": "GATE",
+    "department": "Artificial Intelligence & Data Science",
+    "chapter": "Graph Algorithms",
+    "question_text": "Given recurrence T(n) = 2T(n/2) + n, what is its asymptotic complexity according to the Master Theorem?",
+    "marks": 2,
+    "explanation": "Here a=2, b=2, and f(n)=n. Since log_b(a) = log_2(2) = 1 and f(n) = Theta(n^1), case 2 applies giving Theta(n log n).",
+    "created_at": "2026-11-18T11:49:59.425Z",
+    "updated_at": "2026-11-18T11:49:59.426Z"
+  }
+},
+{
+  "model": "myapp.question",
+  "pk": 4,
+  "fields": {
+    "school": 1,
+    "created_by": [
+      "tch_001"
+    ],
+    "subject": "GATE",
+    "department": "Artificial Intelligence & Data Science",
+    "chapter": "Graph Algorithms",
+    "question_text": "What is the maximum number of edges in an undirected planar graph with V vertices (V >= 3)?",
+    "marks": 2,
+    "explanation": "By Euler formula V - E + F = 2 and 2E >= 3F, we derive the upper bound E <= 3V - 6.",
+    "created_at": "2026-11-18T11:50:00.792Z",
+    "updated_at": "2026-11-18T11:50:00.792Z"
+  }
+},
+{
+  "model": "myapp.question",
+  "pk": 5,
+  "fields": {
+    "school": 1,
+    "created_by": [
+      "tch_002"
+    ],
+    "subject": "Aptitude",
+    "department": "Computer Science Engineering",
+    "chapter": "Combinatorics & Speed Math",
+    "question_text": "A train running at 54 km/hr crosses a platform of length 150m in 20 seconds. What is the length of the train?",
+    "marks": 2,
+    "explanation": "54 km/hr = 54 * (5/18) = 15 m/s. Distance = Speed * Time = 15 * 20 = 300m. Train length = 300 - 150 = 150m.",
+    "created_at": "2026-11-18T11:50:03.104Z",
+    "updated_at": "2026-11-18T11:50:03.104Z"
+  }
+},
+{
+  "model": "myapp.question",
+  "pk": 6,
+  "fields": {
+    "school": 1,
+    "created_by": [
+      "tch_002"
+    ],
+    "subject": "Aptitude",
+    "department": "Computer Science Engineering",
+    "chapter": "Combinatorics & Speed Math",
+    "question_text": "In how many different ways can the letters of the word LEADING be arranged such that vowels always appear together?",
+    "marks": 2,
+    "explanation": "Vowels are E, A, I (3 vowels). Treat (EAI) as 1 entity + 4 consonants (L,D,N,G) = 5 entities (5! = 120). Vowels arrange in 3! = 6 ways. Total = 120 * 6 = 720.",
+    "created_at": "2026-11-18T11:50:04.470Z",
+    "updated_at": "2026-11-18T11:50:04.470Z"
+  }
+},
+{
+  "model": "myapp.question",
+  "pk": 7,
+  "fields": {
+    "school": 1,
+    "created_by": [
+      "tch_002"
+    ],
+    "subject": "Aptitude",
+    "department": "Computer Science Engineering",
+    "chapter": "Combinatorics & Speed Math",
+    "question_text": "If 12 men or 18 women can do a work in 14 days, in how many days can 8 men and 16 women finish the same work?",
+    "marks": 2,
+    "explanation": "12M = 18W => 1M = 1.5W. Total work = 18W * 14 = 252 woman-days. 8M + 16W = (8 * 1.5) + 16 = 28W. Days = 252 / 28 = 9 days.",
+    "created_at": "2026-11-18T11:50:05.837Z",
+    "updated_at": "2026-11-18T11:50:05.837Z"
+  }
+},
+{
+  "model": "myapp.question",
+  "pk": 8,
+  "fields": {
+    "school": 1,
+    "created_by": [
+      "tch_003"
+    ],
+    "subject": "GATE",
+    "department": "Computer Science Engineering",
+    "chapter": "Operating Systems",
+    "question_text": "Which synchronization primitive avoids priority inversion in real-time operating systems?",
+    "marks": 2,
+    "explanation": "Priority ceiling and priority inheritance protocols temporarily elevate the lock holder's priority to prevent medium priority tasks from preempting high priority tasks.",
+    "created_at": "2026-11-19T09:25:38.935Z",
+    "updated_at": "2026-11-19T09:25:38.935Z"
+  }
+},
+{
+  "model": "myapp.question",
+  "pk": 9,
+  "fields": {
+    "school": 1,
+    "created_by": [
+      "tch_003"
+    ],
+    "subject": "GATE",
+    "department": "Computer Science Engineering",
+    "chapter": "Operating Systems",
+    "question_text": "What is the Belady's Anomaly associated with in virtual memory management?",
+    "marks": 2,
+    "explanation": "Belady's anomaly occurs under FIFO page replacement where allocating more page frames increases the number of page faults.",
+    "created_at": "2026-11-19T09:25:40.231Z",
+    "updated_at": "2026-11-19T09:25:40.231Z"
+  }
+},
+{
+  "model": "myapp.question",
+  "pk": 10,
+  "fields": {
+    "school": 1,
+    "created_by": [
+      "tch_003"
+    ],
+    "subject": "GATE",
+    "department": "Computer Science Engineering",
+    "chapter": "Operating Systems",
+    "question_text": "In Unix/Linux, what state does a terminated process enter before its parent calls wait()?",
+    "marks": 2,
+    "explanation": "A process whose execution is complete but whose entry remains in the process table until collected is a Zombie process.",
+    "created_at": "2026-11-19T09:25:41.531Z",
+    "updated_at": "2026-11-19T09:25:41.531Z"
+  }
+},
+{
+  "model": "myapp.question",
+  "pk": 11,
+  "fields": {
+    "school": 1,
+    "created_by": [
+      "tch_004"
+    ],
+    "subject": "GATE",
+    "department": "Artificial Intelligence & Data Science",
+    "chapter": "Machine Learning",
+    "question_text": "What is the computational complexity of the standard Scaled Dot-Product Attention with respect to sequence length N?",
+    "marks": 2,
+    "explanation": "Standard self-attention computes an N x N affinity matrix, resulting in O(N^2 * d) time complexity.",
+    "created_at": "2026-11-19T09:25:45.143Z",
+    "updated_at": "2026-11-19T09:25:45.143Z"
+  }
+},
+{
+  "model": "myapp.question",
+  "pk": 12,
+  "fields": {
+    "school": 1,
+    "created_by": [
+      "tch_004"
+    ],
+    "subject": "GATE",
+    "department": "Artificial Intelligence & Data Science",
+    "chapter": "Machine Learning",
+    "question_text": "Which activation function helps effectively mitigate the vanishing gradient problem in deep networks?",
+    "marks": 2,
+    "explanation": "ReLU has a constant derivative of 1 for positive inputs, avoiding gradient saturation.",
+    "created_at": "2026-11-19T09:25:46.476Z",
+    "updated_at": "2026-11-19T09:25:46.477Z"
+  }
+},
+{
+  "model": "myapp.question",
+  "pk": 13,
+  "fields": {
+    "school": 1,
+    "created_by": [
+      "tch_004"
+    ],
+    "subject": "GATE",
+    "department": "Artificial Intelligence & Data Science",
+    "chapter": "Machine Learning",
+    "question_text": "What purpose does Residual Connection (Skip Connection) serve in ResNet architectures?",
+    "marks": 2,
+    "explanation": "Residual connections allow gradients to flow directly through skip paths, avoiding degradation in deep architectures.",
+    "created_at": "2026-11-19T09:25:47.810Z",
+    "updated_at": "2026-11-19T09:25:47.810Z"
+  }
+},
+{
+  "model": "myapp.question",
+  "pk": 14,
+  "fields": {
+    "school": 1,
+    "created_by": [
+      "tch_005"
+    ],
+    "subject": "GATE",
+    "department": "Information Technology",
+    "chapter": "Distributed Systems",
+    "question_text": "According to Brewer's CAP Theorem, what can a distributed system guarantee during a network partition?",
+    "marks": 2,
+    "explanation": "When a network partition (P) occurs, the system must choose between Consistency (C) and Availability (A).",
+    "created_at": "2026-11-19T09:25:51.400Z",
+    "updated_at": "2026-11-19T09:25:51.400Z"
+  }
+},
+{
+  "model": "myapp.question",
+  "pk": 15,
+  "fields": {
+    "school": 1,
+    "created_by": [
+      "tch_005"
+    ],
+    "subject": "GATE",
+    "department": "Information Technology",
+    "chapter": "Distributed Systems",
+    "question_text": "Which consensus protocol is widely used in Apache Kafka, etcd, and Kubernetes clusters?",
+    "marks": 2,
+    "explanation": "Raft is an understandable consensus algorithm implemented by etcd for reliable state replication.",
+    "created_at": "2026-11-19T09:25:52.721Z",
+    "updated_at": "2026-11-19T09:25:52.721Z"
+  }
+},
+{
+  "model": "myapp.question",
+  "pk": 16,
+  "fields": {
+    "school": 1,
+    "created_by": [
+      "tch_006"
+    ],
+    "subject": "GATE",
+    "department": "Electronics & Communication Engineering",
+    "chapter": "Signal Processing",
+    "question_text": "What is the minimum sampling rate required to avoid aliasing for a signal with maximum frequency component fm = 12 kHz?",
+    "marks": 2,
+    "explanation": "Nyquist-Shannon sampling theorem requires fs >= 2 * fm = 2 * 12 kHz = 24 kHz.",
+    "created_at": "2026-11-19T09:25:56.789Z",
+    "updated_at": "2026-11-19T09:25:56.789Z"
+  }
+},
+{
+  "model": "myapp.question",
+  "pk": 17,
+  "fields": {
+    "school": 1,
+    "created_by": [
+      "tch_006"
+    ],
+    "subject": "GATE",
+    "department": "Electronics & Communication Engineering",
+    "chapter": "Signal Processing",
+    "question_text": "For an LTI system to be stable and causal, where must all poles of its H(z) transfer function lie?",
+    "marks": 2,
+    "explanation": "For causality and BIBO stability, all poles must lie strictly inside the unit circle |z| < 1.",
+    "created_at": "2026-11-19T09:25:58.332Z",
+    "updated_at": "2026-11-19T09:25:58.332Z"
+  }
+},
+{
+  "model": "myapp.question",
+  "pk": 18,
+  "fields": {
+    "school": 1,
+    "created_by": [
+      "tch_007"
+    ],
+    "subject": "GATE",
+    "department": "Mechanical Engineering",
+    "chapter": "Thermodynamics",
+    "question_text": "Which ideal cycle serves as the upper theoretical limit of thermal efficiency for heat engines operating between two temperatures?",
+    "marks": 2,
+    "explanation": "The Carnot cycle has maximum theoretical efficiency eta = 1 - (TL/TH).",
+    "created_at": "2026-11-19T09:26:02.266Z",
+    "updated_at": "2026-11-19T09:26:02.266Z"
+  }
+},
+{
+  "model": "myapp.question",
+  "pk": 19,
+  "fields": {
+    "school": 1,
+    "created_by": [
+      "tch_007"
+    ],
+    "subject": "GATE",
+    "department": "Mechanical Engineering",
+    "chapter": "Thermodynamics",
+    "question_text": "What dimensionless number signifies the ratio of inertial forces to viscous forces in fluid mechanics?",
+    "marks": 2,
+    "explanation": "Reynolds number (Re) characterizes fluid flow regime based on inertia vs viscosity.",
+    "created_at": "2026-11-19T09:26:03.766Z",
+    "updated_at": "2026-11-19T09:26:03.766Z"
+  }
+},
+{
+  "model": "myapp.question",
+  "pk": 20,
+  "fields": {
+    "school": 1,
+    "created_by": [
+      "tch_008"
+    ],
+    "subject": "GATE",
+    "department": "Electrical & Electronics Engineering",
+    "chapter": "Power Systems",
+    "question_text": "Which switching device is preferred for high-voltage, high-power industrial applications with moderate switching frequencies?",
+    "marks": 2,
+    "explanation": "IGBT combines the simple gate-drive characteristics of MOSFETs with the high-current and low-saturation-voltage capability of bipolar transistors.",
+    "created_at": "2026-11-19T09:26:07.690Z",
+    "updated_at": "2026-11-19T09:26:07.690Z"
+  }
+},
+{
+  "model": "myapp.question",
+  "pk": 21,
+  "fields": {
+    "school": 1,
+    "created_by": [
+      "tch_009"
+    ],
+    "subject": "GATE",
+    "department": "CSE (Cyber Security)",
+    "chapter": "Cybersecurity",
+    "question_text": "What mathematical problem provides the hardness guarantee for the classic RSA cryptosystem?",
+    "marks": 2,
+    "explanation": "RSA relies on the computational difficulty of factoring the product of two large prime numbers.",
+    "created_at": "2026-11-19T09:26:11.889Z",
+    "updated_at": "2026-11-19T09:26:11.889Z"
+  }
+},
+{
+  "model": "myapp.question",
+  "pk": 22,
+  "fields": {
+    "school": 1,
+    "created_by": [
+      "tch_009"
+    ],
+    "subject": "GATE",
+    "department": "CSE (Cyber Security)",
+    "chapter": "Cybersecurity",
+    "question_text": "Which hashing algorithm is currently considered cryptographically secure for digital signatures?",
+    "marks": 2,
+    "explanation": "SHA-256 (part of SHA-2 family) remains resistant to collision and pre-image attacks.",
+    "created_at": "2026-11-19T09:26:13.455Z",
+    "updated_at": "2026-11-19T09:26:13.455Z"
+  }
+},
+{
+  "model": "myapp.question",
+  "pk": 23,
+  "fields": {
+    "school": 1,
+    "created_by": [
+      "tch_010"
+    ],
+    "subject": "GATE",
+    "department": "CSE (AI and Machine Learning)",
+    "chapter": "Natural Language Processing",
+    "question_text": "What subword tokenization algorithm is widely utilized in modern LLMs such as GPT and RoBERTa?",
+    "marks": 2,
+    "explanation": "Byte-Pair Encoding (BPE) dynamically merges the most frequent pairs of bytes/characters.",
+    "created_at": "2026-11-19T09:26:18.279Z",
+    "updated_at": "2026-11-19T09:26:18.279Z"
+  }
+},
+{
+  "model": "myapp.question",
+  "pk": 24,
+  "fields": {
+    "school": 1,
+    "created_by": [
+      "tch_011"
+    ],
+    "subject": "GATE",
+    "department": "Biomedical Engineering",
+    "chapter": "Biomedical Engineering",
+    "question_text": "Why are instrumentation amplifiers with high Common-Mode Rejection Ratio (CMRR) crucial for ECG signal acquisition?",
+    "marks": 2,
+    "explanation": "ECG signals have low amplitude (~1 mV) and are masked by 50/60 Hz power-line noise common to both leads.",
+    "created_at": "2026-11-19T09:26:23.868Z",
+    "updated_at": "2026-11-19T09:26:23.868Z"
+  }
+},
+{
+  "model": "myapp.question",
+  "pk": 25,
+  "fields": {
+    "school": 1,
+    "created_by": [
+      "tch_012"
+    ],
+    "subject": "GATE",
+    "department": "Civil Engineering",
+    "chapter": "Structural Engineering",
+    "question_text": "In limit state design of reinforced concrete beams, what is the maximum compressive strain in concrete under axial compression?",
+    "marks": 2,
+    "explanation": "According to standard codes (such as IS 456), the maximum compressive strain in concrete in axial compression is taken as 0.002.",
+    "created_at": "2026-11-19T09:26:28.724Z",
+    "updated_at": "2026-11-19T09:26:28.724Z"
+  }
+},
+{
+  "model": "myapp.examquestion",
+  "pk": 1,
+  "fields": {
+    "exam": 1,
+    "question": 1,
+    "order": 1
+  }
+},
+{
+  "model": "myapp.examquestion",
+  "pk": 2,
+  "fields": {
+    "exam": 1,
+    "question": 2,
+    "order": 2
+  }
+},
+{
+  "model": "myapp.examquestion",
+  "pk": 3,
+  "fields": {
+    "exam": 1,
+    "question": 3,
+    "order": 3
+  }
+},
+{
+  "model": "myapp.examquestion",
+  "pk": 4,
+  "fields": {
+    "exam": 1,
+    "question": 4,
+    "order": 4
+  }
+},
+{
+  "model": "myapp.examquestion",
+  "pk": 5,
+  "fields": {
+    "exam": 2,
+    "question": 5,
+    "order": 1
+  }
+},
+{
+  "model": "myapp.examquestion",
+  "pk": 6,
+  "fields": {
+    "exam": 2,
+    "question": 6,
+    "order": 2
+  }
+},
+{
+  "model": "myapp.examquestion",
+  "pk": 7,
+  "fields": {
+    "exam": 2,
+    "question": 7,
+    "order": 3
+  }
+},
+{
+  "model": "myapp.examquestion",
+  "pk": 8,
+  "fields": {
+    "exam": 4,
+    "question": 8,
+    "order": 1
+  }
+},
+{
+  "model": "myapp.examquestion",
+  "pk": 9,
+  "fields": {
+    "exam": 4,
+    "question": 9,
+    "order": 2
+  }
+},
+{
+  "model": "myapp.examquestion",
+  "pk": 10,
+  "fields": {
+    "exam": 4,
+    "question": 10,
+    "order": 3
+  }
+},
+{
+  "model": "myapp.examquestion",
+  "pk": 11,
+  "fields": {
+    "exam": 5,
+    "question": 11,
+    "order": 1
+  }
+},
+{
+  "model": "myapp.examquestion",
+  "pk": 12,
+  "fields": {
+    "exam": 5,
+    "question": 12,
+    "order": 2
+  }
+},
+{
+  "model": "myapp.examquestion",
+  "pk": 13,
+  "fields": {
+    "exam": 5,
+    "question": 13,
+    "order": 3
+  }
+},
+{
+  "model": "myapp.examquestion",
+  "pk": 14,
+  "fields": {
+    "exam": 6,
+    "question": 14,
+    "order": 1
+  }
+},
+{
+  "model": "myapp.examquestion",
+  "pk": 15,
+  "fields": {
+    "exam": 6,
+    "question": 15,
+    "order": 2
+  }
+},
+{
+  "model": "myapp.examquestion",
+  "pk": 16,
+  "fields": {
+    "exam": 7,
+    "question": 16,
+    "order": 1
+  }
+},
+{
+  "model": "myapp.examquestion",
+  "pk": 17,
+  "fields": {
+    "exam": 7,
+    "question": 17,
+    "order": 2
+  }
+},
+{
+  "model": "myapp.examquestion",
+  "pk": 18,
+  "fields": {
+    "exam": 8,
+    "question": 18,
+    "order": 1
+  }
+},
+{
+  "model": "myapp.examquestion",
+  "pk": 19,
+  "fields": {
+    "exam": 8,
+    "question": 19,
+    "order": 2
+  }
+},
+{
+  "model": "myapp.examquestion",
+  "pk": 20,
+  "fields": {
+    "exam": 9,
+    "question": 20,
+    "order": 1
+  }
+},
+{
+  "model": "myapp.examquestion",
+  "pk": 21,
+  "fields": {
+    "exam": 10,
+    "question": 21,
+    "order": 1
+  }
+},
+{
+  "model": "myapp.examquestion",
+  "pk": 22,
+  "fields": {
+    "exam": 10,
+    "question": 22,
+    "order": 2
+  }
+},
+{
+  "model": "myapp.examquestion",
+  "pk": 23,
+  "fields": {
+    "exam": 11,
+    "question": 23,
+    "order": 1
+  }
+},
+{
+  "model": "myapp.examquestion",
+  "pk": 24,
+  "fields": {
+    "exam": 12,
+    "question": 24,
+    "order": 1
+  }
+},
+{
+  "model": "myapp.examquestion",
+  "pk": 25,
+  "fields": {
+    "exam": 13,
+    "question": 25,
+    "order": 1
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 1,
+  "fields": {
+    "question": 1,
+    "choice_text": "O(V^2)",
+    "is_correct": false,
+    "order": 1
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 2,
+  "fields": {
+    "question": 1,
+    "choice_text": "O((V + E) log V)",
+    "is_correct": true,
+    "order": 2
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 3,
+  "fields": {
+    "question": 1,
+    "choice_text": "O(E log E)",
+    "is_correct": false,
+    "order": 3
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 4,
+  "fields": {
+    "question": 1,
+    "choice_text": "O(V log V)",
+    "is_correct": false,
+    "order": 4
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 5,
+  "fields": {
+    "question": 2,
+    "choice_text": "Greedy Strategy",
+    "is_correct": false,
+    "order": 1
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 6,
+  "fields": {
+    "question": 2,
+    "choice_text": "Divide and Conquer",
+    "is_correct": false,
+    "order": 2
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 7,
+  "fields": {
+    "question": 2,
+    "choice_text": "Dynamic Programming",
+    "is_correct": true,
+    "order": 3
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 8,
+  "fields": {
+    "question": 2,
+    "choice_text": "Branch and Bound",
+    "is_correct": false,
+    "order": 4
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 9,
+  "fields": {
+    "question": 3,
+    "choice_text": "O(n)",
+    "is_correct": false,
+    "order": 1
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 10,
+  "fields": {
+    "question": 3,
+    "choice_text": "O(n log n)",
+    "is_correct": true,
+    "order": 2
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 11,
+  "fields": {
+    "question": 3,
+    "choice_text": "O(n^2)",
+    "is_correct": false,
+    "order": 3
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 12,
+  "fields": {
+    "question": 3,
+    "choice_text": "O(log n)",
+    "is_correct": false,
+    "order": 4
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 13,
+  "fields": {
+    "question": 4,
+    "choice_text": "3V - 6",
+    "is_correct": true,
+    "order": 1
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 14,
+  "fields": {
+    "question": 4,
+    "choice_text": "2V - 4",
+    "is_correct": false,
+    "order": 2
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 15,
+  "fields": {
+    "question": 4,
+    "choice_text": "V(V - 1)/2",
+    "is_correct": false,
+    "order": 3
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 16,
+  "fields": {
+    "question": 4,
+    "choice_text": "3V + 6",
+    "is_correct": false,
+    "order": 4
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 17,
+  "fields": {
+    "question": 5,
+    "choice_text": "100 m",
+    "is_correct": false,
+    "order": 1
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 18,
+  "fields": {
+    "question": 5,
+    "choice_text": "150 m",
+    "is_correct": true,
+    "order": 2
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 19,
+  "fields": {
+    "question": 5,
+    "choice_text": "200 m",
+    "is_correct": false,
+    "order": 3
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 20,
+  "fields": {
+    "question": 5,
+    "choice_text": "250 m",
+    "is_correct": false,
+    "order": 4
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 21,
+  "fields": {
+    "question": 6,
+    "choice_text": "360",
+    "is_correct": false,
+    "order": 1
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 22,
+  "fields": {
+    "question": 6,
+    "choice_text": "480",
+    "is_correct": false,
+    "order": 2
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 23,
+  "fields": {
+    "question": 6,
+    "choice_text": "720",
+    "is_correct": true,
+    "order": 3
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 24,
+  "fields": {
+    "question": 6,
+    "choice_text": "5040",
+    "is_correct": false,
+    "order": 4
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 25,
+  "fields": {
+    "question": 7,
+    "choice_text": "8 days",
+    "is_correct": false,
+    "order": 1
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 26,
+  "fields": {
+    "question": 7,
+    "choice_text": "9 days",
+    "is_correct": true,
+    "order": 2
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 27,
+  "fields": {
+    "question": 7,
+    "choice_text": "10 days",
+    "is_correct": false,
+    "order": 3
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 28,
+  "fields": {
+    "question": 7,
+    "choice_text": "12 days",
+    "is_correct": false,
+    "order": 4
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 29,
+  "fields": {
+    "question": 8,
+    "choice_text": "Priority Inheritance Mutex",
+    "is_correct": true,
+    "order": 1
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 30,
+  "fields": {
+    "question": 8,
+    "choice_text": "Counting Semaphore",
+    "is_correct": false,
+    "order": 2
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 31,
+  "fields": {
+    "question": 8,
+    "choice_text": "Spinlock without timeout",
+    "is_correct": false,
+    "order": 3
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 32,
+  "fields": {
+    "question": 8,
+    "choice_text": "Peterson's algorithm",
+    "is_correct": false,
+    "order": 4
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 33,
+  "fields": {
+    "question": 9,
+    "choice_text": "FIFO page replacement algorithm",
+    "is_correct": true,
+    "order": 1
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 34,
+  "fields": {
+    "question": 9,
+    "choice_text": "LRU page replacement algorithm",
+    "is_correct": false,
+    "order": 2
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 35,
+  "fields": {
+    "question": 9,
+    "choice_text": "Optimal page replacement algorithm",
+    "is_correct": false,
+    "order": 3
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 36,
+  "fields": {
+    "question": 9,
+    "choice_text": "Clock algorithm",
+    "is_correct": false,
+    "order": 4
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 37,
+  "fields": {
+    "question": 10,
+    "choice_text": "Zombie State (defunct)",
+    "is_correct": true,
+    "order": 1
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 38,
+  "fields": {
+    "question": 10,
+    "choice_text": "Orphan State",
+    "is_correct": false,
+    "order": 2
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 39,
+  "fields": {
+    "question": 10,
+    "choice_text": "Blocked State",
+    "is_correct": false,
+    "order": 3
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 40,
+  "fields": {
+    "question": 10,
+    "choice_text": "Suspended Ready",
+    "is_correct": false,
+    "order": 4
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 41,
+  "fields": {
+    "question": 11,
+    "choice_text": "O(N^2 * d)",
+    "is_correct": true,
+    "order": 1
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 42,
+  "fields": {
+    "question": 11,
+    "choice_text": "O(N * d^2)",
+    "is_correct": false,
+    "order": 2
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 43,
+  "fields": {
+    "question": 11,
+    "choice_text": "O(N log N)",
+    "is_correct": false,
+    "order": 3
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 44,
+  "fields": {
+    "question": 11,
+    "choice_text": "O(d^3)",
+    "is_correct": false,
+    "order": 4
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 45,
+  "fields": {
+    "question": 12,
+    "choice_text": "Rectified Linear Unit (ReLU)",
+    "is_correct": true,
+    "order": 1
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 46,
+  "fields": {
+    "question": 12,
+    "choice_text": "Sigmoid",
+    "is_correct": false,
+    "order": 2
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 47,
+  "fields": {
+    "question": 12,
+    "choice_text": "Standard Hyperbolic Tangent (Tanh)",
+    "is_correct": false,
+    "order": 3
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 48,
+  "fields": {
+    "question": 12,
+    "choice_text": "Softmax",
+    "is_correct": false,
+    "order": 4
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 49,
+  "fields": {
+    "question": 13,
+    "choice_text": "Allows gradients to bypass non-linear layers directly",
+    "is_correct": true,
+    "order": 1
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 50,
+  "fields": {
+    "question": 13,
+    "choice_text": "Reduces total model parameters to zero",
+    "is_correct": false,
+    "order": 2
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 51,
+  "fields": {
+    "question": 13,
+    "choice_text": "Replaces the loss function with L1 norm",
+    "is_correct": false,
+    "order": 3
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 52,
+  "fields": {
+    "question": 13,
+    "choice_text": "Disables batch normalization layers",
+    "is_correct": false,
+    "order": 4
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 53,
+  "fields": {
+    "question": 14,
+    "choice_text": "Either Consistency or Availability, but not both",
+    "is_correct": true,
+    "order": 1
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 54,
+  "fields": {
+    "question": 14,
+    "choice_text": "Both Consistency and Availability simultaneously",
+    "is_correct": false,
+    "order": 2
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 55,
+  "fields": {
+    "question": 14,
+    "choice_text": "Neither Consistency nor Availability",
+    "is_correct": false,
+    "order": 3
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 56,
+  "fields": {
+    "question": 14,
+    "choice_text": "Infinite ACID atomicity",
+    "is_correct": false,
+    "order": 4
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 57,
+  "fields": {
+    "question": 15,
+    "choice_text": "Raft Consensus Algorithm",
+    "is_correct": true,
+    "order": 1
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 58,
+  "fields": {
+    "question": 15,
+    "choice_text": "Dijkstra's Shortest Path",
+    "is_correct": false,
+    "order": 2
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 59,
+  "fields": {
+    "question": 15,
+    "choice_text": "Prim's Algorithm",
+    "is_correct": false,
+    "order": 3
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 60,
+  "fields": {
+    "question": 15,
+    "choice_text": "Bellman-Ford Algorithm",
+    "is_correct": false,
+    "order": 4
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 61,
+  "fields": {
+    "question": 16,
+    "choice_text": "24 kHz",
+    "is_correct": true,
+    "order": 1
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 62,
+  "fields": {
+    "question": 16,
+    "choice_text": "12 kHz",
+    "is_correct": false,
+    "order": 2
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 63,
+  "fields": {
+    "question": 16,
+    "choice_text": "48 kHz",
+    "is_correct": false,
+    "order": 3
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 64,
+  "fields": {
+    "question": 16,
+    "choice_text": "6 kHz",
+    "is_correct": false,
+    "order": 4
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 65,
+  "fields": {
+    "question": 17,
+    "choice_text": "Strictly inside the unit circle |z| < 1",
+    "is_correct": true,
+    "order": 1
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 66,
+  "fields": {
+    "question": 17,
+    "choice_text": "Strictly on the unit circle |z| = 1",
+    "is_correct": false,
+    "order": 2
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 67,
+  "fields": {
+    "question": 17,
+    "choice_text": "Outside the unit circle |z| > 1",
+    "is_correct": false,
+    "order": 3
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 68,
+  "fields": {
+    "question": 17,
+    "choice_text": "Only on the real axis",
+    "is_correct": false,
+    "order": 4
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 69,
+  "fields": {
+    "question": 18,
+    "choice_text": "Carnot Cycle",
+    "is_correct": true,
+    "order": 1
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 70,
+  "fields": {
+    "question": 18,
+    "choice_text": "Otto Cycle",
+    "is_correct": false,
+    "order": 2
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 71,
+  "fields": {
+    "question": 18,
+    "choice_text": "Rankine Cycle",
+    "is_correct": false,
+    "order": 3
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 72,
+  "fields": {
+    "question": 18,
+    "choice_text": "Brayton Cycle",
+    "is_correct": false,
+    "order": 4
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 73,
+  "fields": {
+    "question": 19,
+    "choice_text": "Reynolds Number",
+    "is_correct": true,
+    "order": 1
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 74,
+  "fields": {
+    "question": 19,
+    "choice_text": "Prandtl Number",
+    "is_correct": false,
+    "order": 2
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 75,
+  "fields": {
+    "question": 19,
+    "choice_text": "Nusselt Number",
+    "is_correct": false,
+    "order": 3
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 76,
+  "fields": {
+    "question": 19,
+    "choice_text": "Mach Number",
+    "is_correct": false,
+    "order": 4
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 77,
+  "fields": {
+    "question": 20,
+    "choice_text": "Insulated Gate Bipolar Transistor (IGBT)",
+    "is_correct": true,
+    "order": 1
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 78,
+  "fields": {
+    "question": 20,
+    "choice_text": "Standard Diode",
+    "is_correct": false,
+    "order": 2
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 79,
+  "fields": {
+    "question": 20,
+    "choice_text": "Tunnel Diode",
+    "is_correct": false,
+    "order": 3
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 80,
+  "fields": {
+    "question": 20,
+    "choice_text": "Unijunction Transistor (UJT)",
+    "is_correct": false,
+    "order": 4
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 81,
+  "fields": {
+    "question": 21,
+    "choice_text": "Prime Factorization of large composite numbers",
+    "is_correct": true,
+    "order": 1
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 82,
+  "fields": {
+    "question": 21,
+    "choice_text": "Travelling Salesperson Problem",
+    "is_correct": false,
+    "order": 2
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 83,
+  "fields": {
+    "question": 21,
+    "choice_text": "Discrete Logarithm on elliptic curves only",
+    "is_correct": false,
+    "order": 3
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 84,
+  "fields": {
+    "question": 21,
+    "choice_text": "Graph Coloring Problem",
+    "is_correct": false,
+    "order": 4
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 85,
+  "fields": {
+    "question": 22,
+    "choice_text": "SHA-256",
+    "is_correct": true,
+    "order": 1
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 86,
+  "fields": {
+    "question": 22,
+    "choice_text": "MD5",
+    "is_correct": false,
+    "order": 2
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 87,
+  "fields": {
+    "question": 22,
+    "choice_text": "SHA-1",
+    "is_correct": false,
+    "order": 3
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 88,
+  "fields": {
+    "question": 22,
+    "choice_text": "CRC32",
+    "is_correct": false,
+    "order": 4
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 89,
+  "fields": {
+    "question": 23,
+    "choice_text": "Byte-Pair Encoding (BPE)",
+    "is_correct": true,
+    "order": 1
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 90,
+  "fields": {
+    "question": 23,
+    "choice_text": "Levenshtein Distance Tokenizer",
+    "is_correct": false,
+    "order": 2
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 91,
+  "fields": {
+    "question": 23,
+    "choice_text": "N-gram Markovian Slicer",
+    "is_correct": false,
+    "order": 3
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 92,
+  "fields": {
+    "question": 23,
+    "choice_text": "Stopword Elimination Vectorizer",
+    "is_correct": false,
+    "order": 4
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 93,
+  "fields": {
+    "question": 24,
+    "choice_text": "To reject 50/60 Hz power-line interference noise common to both electrodes",
+    "is_correct": true,
+    "order": 1
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 94,
+  "fields": {
+    "question": 24,
+    "choice_text": "To amplify noise while dampening the cardiac signal",
+    "is_correct": false,
+    "order": 2
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 95,
+  "fields": {
+    "question": 24,
+    "choice_text": "To convert analog signals directly to optical waves",
+    "is_correct": false,
+    "order": 3
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 96,
+  "fields": {
+    "question": 24,
+    "choice_text": "To bypass patient grounding requirements",
+    "is_correct": false,
+    "order": 4
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 97,
+  "fields": {
+    "question": 25,
+    "choice_text": "0.002",
+    "is_correct": true,
+    "order": 1
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 98,
+  "fields": {
+    "question": 25,
+    "choice_text": "0.0035",
+    "is_correct": false,
+    "order": 2
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 99,
+  "fields": {
+    "question": 25,
+    "choice_text": "0.05",
+    "is_correct": false,
+    "order": 3
+  }
+},
+{
+  "model": "myapp.choice",
+  "pk": 100,
+  "fields": {
+    "question": 25,
+    "choice_text": "0.0001",
+    "is_correct": false,
+    "order": 4
+  }
+},
+{
+  "model": "myapp.examattempt",
+  "pk": 1,
+  "fields": {
+    "student": [
+      "stu_aids_002"
+    ],
+    "exam": 2,
+    "student_class": 1,
+    "attempt_mode": "test",
+    "started_at": "2026-11-18T11:50:07.694Z",
+    "submitted_at": "2026-11-18T11:50:07.691Z",
+    "score": "6.00",
+    "total_marks": 6,
+    "is_completed": true,
+    "has_violation": false,
+    "violation_reason": null,
+    "question_order": null
+  }
+},
+{
+  "model": "myapp.examattempt",
+  "pk": 2,
+  "fields": {
+    "student": [
+      "stu_aids_003"
+    ],
+    "exam": 2,
+    "student_class": 1,
+    "attempt_mode": "test",
+    "started_at": "2026-11-18T11:50:08.712Z",
+    "submitted_at": "2026-11-18T11:50:08.709Z",
+    "score": "4.00",
+    "total_marks": 6,
+    "is_completed": true,
+    "has_violation": false,
+    "violation_reason": null,
+    "question_order": null
+  }
+},
+{
+  "model": "myapp.examattempt",
+  "pk": 3,
+  "fields": {
+    "student": [
+      "stu_aids_004"
+    ],
+    "exam": 2,
+    "student_class": 1,
+    "attempt_mode": "test",
+    "started_at": "2026-11-18T11:50:09.633Z",
+    "submitted_at": "2026-11-18T11:50:09.631Z",
+    "score": "4.00",
+    "total_marks": 6,
+    "is_completed": true,
+    "has_violation": false,
+    "violation_reason": null,
+    "question_order": null
+  }
+},
+{
+  "model": "myapp.examattempt",
+  "pk": 4,
+  "fields": {
+    "student": [
+      "stu_aids_001"
+    ],
+    "exam": 1,
+    "student_class": 1,
+    "attempt_mode": "test",
+    "started_at": "2026-11-18T11:57:36.280Z",
+    "submitted_at": "2026-11-18T11:57:57.801Z",
+    "score": "8.00",
+    "total_marks": 8,
+    "is_completed": true,
+    "has_violation": false,
+    "violation_reason": null,
+    "question_order": [
+      4,
+      3,
+      2,
+      1
+    ]
+  }
+},
+{
+  "model": "myapp.examattempt",
+  "pk": 5,
+  "fields": {
+    "student": [
+      "stu_aids_001"
+    ],
+    "exam": 2,
+    "student_class": 1,
+    "attempt_mode": "test",
+    "started_at": "2026-11-19T09:26:26.606Z",
+    "submitted_at": "2026-11-19T09:27:58.586Z",
+    "score": "0.00",
+    "total_marks": 6,
+    "is_completed": true,
+    "has_violation": true,
+    "violation_reason": "Exam window lost focus (Violation #1)",
+    "question_order": [
+      5,
+      7,
+      6
+    ]
+  }
+},
+{
+  "model": "myapp.examattempt",
+  "pk": 6,
+  "fields": {
+    "student": [
+      "stu_001"
+    ],
+    "exam": 4,
+    "student_class": 3,
+    "attempt_mode": "test",
+    "started_at": "2026-11-19T09:26:32.680Z",
+    "submitted_at": "2026-11-19T09:36:32.680Z",
+    "score": "0.00",
+    "total_marks": 6,
+    "is_completed": true,
+    "has_violation": false,
+    "violation_reason": null,
+    "question_order": null
+  }
+},
+{
+  "model": "myapp.examattempt",
+  "pk": 7,
+  "fields": {
+    "student": [
+      "stu_001"
+    ],
+    "exam": 5,
+    "student_class": 4,
+    "attempt_mode": "test",
+    "started_at": "2026-11-19T09:26:34.887Z",
+    "submitted_at": "2026-11-19T09:40:34.887Z",
+    "score": "0.00",
+    "total_marks": 6,
+    "is_completed": true,
+    "has_violation": false,
+    "violation_reason": null,
+    "question_order": null
+  }
+},
+{
+  "model": "myapp.examattempt",
+  "pk": 8,
+  "fields": {
+    "student": [
+      "stu_001"
+    ],
+    "exam": 6,
+    "student_class": 5,
+    "attempt_mode": "test",
+    "started_at": "2026-11-19T09:26:36.865Z",
+    "submitted_at": "2026-11-19T09:35:36.865Z",
+    "score": "0.00",
+    "total_marks": 4,
+    "is_completed": true,
+    "has_violation": false,
+    "violation_reason": null,
+    "question_order": null
+  }
+},
+{
+  "model": "myapp.examattempt",
+  "pk": 9,
+  "fields": {
+    "student": [
+      "stu_002"
+    ],
+    "exam": 5,
+    "student_class": 4,
+    "attempt_mode": "test",
+    "started_at": "2026-11-19T09:26:40.624Z",
+    "submitted_at": "2026-11-19T09:42:40.624Z",
+    "score": "6.00",
+    "total_marks": 6,
+    "is_completed": true,
+    "has_violation": false,
+    "violation_reason": null,
+    "question_order": null
+  }
+},
+{
+  "model": "myapp.examattempt",
+  "pk": 10,
+  "fields": {
+    "student": [
+      "stu_002"
+    ],
+    "exam": 6,
+    "student_class": 5,
+    "attempt_mode": "test",
+    "started_at": "2026-11-19T09:26:42.032Z",
+    "submitted_at": "2026-11-19T09:43:42.032Z",
+    "score": "4.00",
+    "total_marks": 4,
+    "is_completed": true,
+    "has_violation": false,
+    "violation_reason": null,
+    "question_order": null
+  }
+},
+{
+  "model": "myapp.examattempt",
+  "pk": 11,
+  "fields": {
+    "student": [
+      "stu_002"
+    ],
+    "exam": 7,
+    "student_class": 6,
+    "attempt_mode": "test",
+    "started_at": "2026-11-19T09:26:43.221Z",
+    "submitted_at": "2026-11-19T09:42:43.221Z",
+    "score": "4.00",
+    "total_marks": 4,
+    "is_completed": true,
+    "has_violation": false,
+    "violation_reason": null,
+    "question_order": null
+  }
+},
+{
+  "model": "myapp.examattempt",
+  "pk": 12,
+  "fields": {
+    "student": [
+      "stu_003"
+    ],
+    "exam": 6,
+    "student_class": 5,
+    "attempt_mode": "test",
+    "started_at": "2026-11-19T09:26:47.036Z",
+    "submitted_at": "2026-11-19T09:44:47.036Z",
+    "score": "4.00",
+    "total_marks": 4,
+    "is_completed": true,
+    "has_violation": false,
+    "violation_reason": null,
+    "question_order": null
+  }
+},
+{
+  "model": "myapp.examattempt",
+  "pk": 13,
+  "fields": {
+    "student": [
+      "stu_003"
+    ],
+    "exam": 7,
+    "student_class": 6,
+    "attempt_mode": "test",
+    "started_at": "2026-11-19T09:26:48.622Z",
+    "submitted_at": "2026-11-19T09:35:48.622Z",
+    "score": "4.00",
+    "total_marks": 4,
+    "is_completed": true,
+    "has_violation": false,
+    "violation_reason": null,
+    "question_order": null
+  }
+},
+{
+  "model": "myapp.examattempt",
+  "pk": 14,
+  "fields": {
+    "student": [
+      "stu_003"
+    ],
+    "exam": 8,
+    "student_class": 7,
+    "attempt_mode": "test",
+    "started_at": "2026-11-19T09:26:50.777Z",
+    "submitted_at": "2026-11-19T09:34:50.777Z",
+    "score": "4.00",
+    "total_marks": 4,
+    "is_completed": true,
+    "has_violation": false,
+    "violation_reason": null,
+    "question_order": null
+  }
+},
+{
+  "model": "myapp.examattempt",
+  "pk": 15,
+  "fields": {
+    "student": [
+      "stu_004"
+    ],
+    "exam": 7,
+    "student_class": 6,
+    "attempt_mode": "test",
+    "started_at": "2026-11-19T09:26:55.836Z",
+    "submitted_at": "2026-11-19T09:42:55.836Z",
+    "score": "0.00",
+    "total_marks": 4,
+    "is_completed": true,
+    "has_violation": false,
+    "violation_reason": null,
+    "question_order": null
+  }
+},
+{
+  "model": "myapp.examattempt",
+  "pk": 16,
+  "fields": {
+    "student": [
+      "stu_004"
+    ],
+    "exam": 8,
+    "student_class": 7,
+    "attempt_mode": "test",
+    "started_at": "2026-11-19T09:26:57.478Z",
+    "submitted_at": "2026-11-19T09:37:57.478Z",
+    "score": "0.00",
+    "total_marks": 4,
+    "is_completed": true,
+    "has_violation": false,
+    "violation_reason": null,
+    "question_order": null
+  }
+},
+{
+  "model": "myapp.examattempt",
+  "pk": 17,
+  "fields": {
+    "student": [
+      "stu_004"
+    ],
+    "exam": 9,
+    "student_class": 8,
+    "attempt_mode": "test",
+    "started_at": "2026-11-19T09:26:59.255Z",
+    "submitted_at": "2026-11-19T09:38:59.255Z",
+    "score": "0.00",
+    "total_marks": 2,
+    "is_completed": true,
+    "has_violation": false,
+    "violation_reason": null,
+    "question_order": null
+  }
+},
+{
+  "model": "myapp.examattempt",
+  "pk": 18,
+  "fields": {
+    "student": [
+      "stu_005"
+    ],
+    "exam": 8,
+    "student_class": 7,
+    "attempt_mode": "test",
+    "started_at": "2026-11-19T09:27:04.305Z",
+    "submitted_at": "2026-11-19T09:43:04.305Z",
+    "score": "4.00",
+    "total_marks": 4,
+    "is_completed": true,
+    "has_violation": false,
+    "violation_reason": null,
+    "question_order": null
+  }
+},
+{
+  "model": "myapp.examattempt",
+  "pk": 19,
+  "fields": {
+    "student": [
+      "stu_005"
+    ],
+    "exam": 9,
+    "student_class": 8,
+    "attempt_mode": "test",
+    "started_at": "2026-11-19T09:27:05.956Z",
+    "submitted_at": "2026-11-19T09:37:05.956Z",
+    "score": "2.00",
+    "total_marks": 2,
+    "is_completed": true,
+    "has_violation": false,
+    "violation_reason": null,
+    "question_order": null
+  }
+},
+{
+  "model": "myapp.examattempt",
+  "pk": 20,
+  "fields": {
+    "student": [
+      "stu_005"
+    ],
+    "exam": 10,
+    "student_class": 9,
+    "attempt_mode": "test",
+    "started_at": "2026-11-19T09:27:07.301Z",
+    "submitted_at": "2026-11-19T09:44:07.301Z",
+    "score": "4.00",
+    "total_marks": 4,
+    "is_completed": true,
+    "has_violation": false,
+    "violation_reason": null,
+    "question_order": null
+  }
+},
+{
+  "model": "myapp.examattempt",
+  "pk": 21,
+  "fields": {
+    "student": [
+      "stu_006"
+    ],
+    "exam": 9,
+    "student_class": 8,
+    "attempt_mode": "test",
+    "started_at": "2026-11-19T09:27:11.461Z",
+    "submitted_at": "2026-11-19T09:37:11.461Z",
+    "score": "2.00",
+    "total_marks": 2,
+    "is_completed": true,
+    "has_violation": false,
+    "violation_reason": null,
+    "question_order": null
+  }
+},
+{
+  "model": "myapp.examattempt",
+  "pk": 22,
+  "fields": {
+    "student": [
+      "stu_006"
+    ],
+    "exam": 10,
+    "student_class": 9,
+    "attempt_mode": "test",
+    "started_at": "2026-11-19T09:27:12.845Z",
+    "submitted_at": "2026-11-19T09:43:12.845Z",
+    "score": "4.00",
+    "total_marks": 4,
+    "is_completed": true,
+    "has_violation": false,
+    "violation_reason": null,
+    "question_order": null
+  }
+},
+{
+  "model": "myapp.examattempt",
+  "pk": 23,
+  "fields": {
+    "student": [
+      "stu_006"
+    ],
+    "exam": 11,
+    "student_class": 10,
+    "attempt_mode": "test",
+    "started_at": "2026-11-19T09:27:14.523Z",
+    "submitted_at": "2026-11-19T09:38:14.523Z",
+    "score": "2.00",
+    "total_marks": 2,
+    "is_completed": true,
+    "has_violation": false,
+    "violation_reason": null,
+    "question_order": null
+  }
+},
+{
+  "model": "myapp.examattempt",
+  "pk": 24,
+  "fields": {
+    "student": [
+      "stu_007"
+    ],
+    "exam": 10,
+    "student_class": 9,
+    "attempt_mode": "test",
+    "started_at": "2026-11-19T09:27:18.616Z",
+    "submitted_at": "2026-11-19T09:45:18.616Z",
+    "score": "0.00",
+    "total_marks": 4,
+    "is_completed": true,
+    "has_violation": false,
+    "violation_reason": null,
+    "question_order": null
+  }
+},
+{
+  "model": "myapp.examattempt",
+  "pk": 25,
+  "fields": {
+    "student": [
+      "stu_007"
+    ],
+    "exam": 11,
+    "student_class": 10,
+    "attempt_mode": "test",
+    "started_at": "2026-11-19T09:27:20.335Z",
+    "submitted_at": "2026-11-19T09:39:20.335Z",
+    "score": "0.00",
+    "total_marks": 2,
+    "is_completed": true,
+    "has_violation": false,
+    "violation_reason": null,
+    "question_order": null
+  }
+},
+{
+  "model": "myapp.examattempt",
+  "pk": 26,
+  "fields": {
+    "student": [
+      "stu_007"
+    ],
+    "exam": 12,
+    "student_class": 11,
+    "attempt_mode": "test",
+    "started_at": "2026-11-19T09:27:21.702Z",
+    "submitted_at": "2026-11-19T09:42:21.702Z",
+    "score": "0.00",
+    "total_marks": 2,
+    "is_completed": true,
+    "has_violation": false,
+    "violation_reason": null,
+    "question_order": null
+  }
+},
+{
+  "model": "myapp.examattempt",
+  "pk": 27,
+  "fields": {
+    "student": [
+      "stu_008"
+    ],
+    "exam": 11,
+    "student_class": 10,
+    "attempt_mode": "test",
+    "started_at": "2026-11-19T09:27:25.528Z",
+    "submitted_at": "2026-11-19T09:42:25.528Z",
+    "score": "2.00",
+    "total_marks": 2,
+    "is_completed": true,
+    "has_violation": false,
+    "violation_reason": null,
+    "question_order": null
+  }
+},
+{
+  "model": "myapp.examattempt",
+  "pk": 28,
+  "fields": {
+    "student": [
+      "stu_008"
+    ],
+    "exam": 12,
+    "student_class": 11,
+    "attempt_mode": "test",
+    "started_at": "2026-11-19T09:27:26.880Z",
+    "submitted_at": "2026-11-19T09:41:26.880Z",
+    "score": "2.00",
+    "total_marks": 2,
+    "is_completed": true,
+    "has_violation": false,
+    "violation_reason": null,
+    "question_order": null
+  }
+},
+{
+  "model": "myapp.examattempt",
+  "pk": 29,
+  "fields": {
+    "student": [
+      "stu_008"
+    ],
+    "exam": 13,
+    "student_class": 12,
+    "attempt_mode": "test",
+    "started_at": "2026-11-19T09:27:28.247Z",
+    "submitted_at": "2026-11-19T09:38:28.247Z",
+    "score": "2.00",
+    "total_marks": 2,
+    "is_completed": true,
+    "has_violation": false,
+    "violation_reason": null,
+    "question_order": null
+  }
+},
+{
+  "model": "myapp.examattempt",
+  "pk": 30,
+  "fields": {
+    "student": [
+      "stu_009"
+    ],
+    "exam": 4,
+    "student_class": 3,
+    "attempt_mode": "test",
+    "started_at": "2026-11-19T09:27:31.873Z",
+    "submitted_at": "2026-11-19T09:42:31.873Z",
+    "score": "6.00",
+    "total_marks": 6,
+    "is_completed": true,
+    "has_violation": false,
+    "violation_reason": null,
+    "question_order": null
+  }
+},
+{
+  "model": "myapp.examattempt",
+  "pk": 31,
+  "fields": {
+    "student": [
+      "stu_009"
+    ],
+    "exam": 12,
+    "student_class": 11,
+    "attempt_mode": "test",
+    "started_at": "2026-11-19T09:27:33.925Z",
+    "submitted_at": "2026-11-19T09:40:33.925Z",
+    "score": "2.00",
+    "total_marks": 2,
+    "is_completed": true,
+    "has_violation": false,
+    "violation_reason": null,
+    "question_order": null
+  }
+},
+{
+  "model": "myapp.examattempt",
+  "pk": 32,
+  "fields": {
+    "student": [
+      "stu_009"
+    ],
+    "exam": 13,
+    "student_class": 12,
+    "attempt_mode": "test",
+    "started_at": "2026-11-19T09:27:35.414Z",
+    "submitted_at": "2026-11-19T09:45:35.414Z",
+    "score": "2.00",
+    "total_marks": 2,
+    "is_completed": true,
+    "has_violation": false,
+    "violation_reason": null,
+    "question_order": null
+  }
+},
+{
+  "model": "myapp.examattempt",
+  "pk": 33,
+  "fields": {
+    "student": [
+      "stu_010"
+    ],
+    "exam": 4,
+    "student_class": 3,
+    "attempt_mode": "test",
+    "started_at": "2026-11-19T09:27:39.218Z",
+    "submitted_at": "2026-11-19T09:44:39.218Z",
+    "score": "0.00",
+    "total_marks": 6,
+    "is_completed": true,
+    "has_violation": false,
+    "violation_reason": null,
+    "question_order": null
+  }
+},
+{
+  "model": "myapp.examattempt",
+  "pk": 34,
+  "fields": {
+    "student": [
+      "stu_010"
+    ],
+    "exam": 5,
+    "student_class": 4,
+    "attempt_mode": "test",
+    "started_at": "2026-11-19T09:27:41.259Z",
+    "submitted_at": "2026-11-19T09:40:41.259Z",
+    "score": "0.00",
+    "total_marks": 6,
+    "is_completed": true,
+    "has_violation": false,
+    "violation_reason": null,
+    "question_order": null
+  }
+},
+{
+  "model": "myapp.examattempt",
+  "pk": 35,
+  "fields": {
+    "student": [
+      "stu_010"
+    ],
+    "exam": 13,
+    "student_class": 12,
+    "attempt_mode": "test",
+    "started_at": "2026-11-19T09:27:43.281Z",
+    "submitted_at": "2026-11-19T09:40:43.281Z",
+    "score": "0.00",
+    "total_marks": 2,
+    "is_completed": true,
+    "has_violation": false,
+    "violation_reason": null,
+    "question_order": null
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 1,
+  "fields": {
+    "attempt": 1,
+    "question": 7,
+    "selected_choice": 26,
+    "is_correct": true,
+    "answered_at": "2026-11-18T11:50:07.974Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 2,
+  "fields": {
+    "attempt": 1,
+    "question": 6,
+    "selected_choice": 23,
+    "is_correct": true,
+    "answered_at": "2026-11-18T11:50:08.246Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 3,
+  "fields": {
+    "attempt": 1,
+    "question": 5,
+    "selected_choice": 18,
+    "is_correct": true,
+    "answered_at": "2026-11-18T11:50:08.480Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 4,
+  "fields": {
+    "attempt": 2,
+    "question": 7,
+    "selected_choice": 26,
+    "is_correct": true,
+    "answered_at": "2026-11-18T11:50:08.950Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 5,
+  "fields": {
+    "attempt": 2,
+    "question": 6,
+    "selected_choice": 23,
+    "is_correct": true,
+    "answered_at": "2026-11-18T11:50:09.180Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 6,
+  "fields": {
+    "attempt": 2,
+    "question": 5,
+    "selected_choice": 17,
+    "is_correct": false,
+    "answered_at": "2026-11-18T11:50:09.413Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 7,
+  "fields": {
+    "attempt": 3,
+    "question": 7,
+    "selected_choice": 26,
+    "is_correct": true,
+    "answered_at": "2026-11-18T11:50:09.863Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 8,
+  "fields": {
+    "attempt": 3,
+    "question": 6,
+    "selected_choice": 23,
+    "is_correct": true,
+    "answered_at": "2026-11-18T11:50:10.089Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 9,
+  "fields": {
+    "attempt": 3,
+    "question": 5,
+    "selected_choice": 17,
+    "is_correct": false,
+    "answered_at": "2026-11-18T11:50:10.312Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 10,
+  "fields": {
+    "attempt": 4,
+    "question": 4,
+    "selected_choice": 13,
+    "is_correct": true,
+    "answered_at": "2026-11-18T11:57:57.775Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 11,
+  "fields": {
+    "attempt": 4,
+    "question": 3,
+    "selected_choice": 10,
+    "is_correct": true,
+    "answered_at": "2026-11-18T11:57:57.798Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 12,
+  "fields": {
+    "attempt": 4,
+    "question": 2,
+    "selected_choice": 7,
+    "is_correct": true,
+    "answered_at": "2026-11-18T11:57:57.799Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 13,
+  "fields": {
+    "attempt": 4,
+    "question": 1,
+    "selected_choice": 2,
+    "is_correct": true,
+    "answered_at": "2026-11-18T11:57:57.801Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 14,
+  "fields": {
+    "attempt": 6,
+    "question": 10,
+    "selected_choice": 38,
+    "is_correct": false,
+    "answered_at": "2026-11-19T09:26:33.478Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 15,
+  "fields": {
+    "attempt": 6,
+    "question": 9,
+    "selected_choice": 36,
+    "is_correct": false,
+    "answered_at": "2026-11-19T09:26:33.912Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 16,
+  "fields": {
+    "attempt": 6,
+    "question": 8,
+    "selected_choice": 32,
+    "is_correct": false,
+    "answered_at": "2026-11-19T09:26:34.265Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 17,
+  "fields": {
+    "attempt": 7,
+    "question": 13,
+    "selected_choice": 52,
+    "is_correct": false,
+    "answered_at": "2026-11-19T09:26:35.578Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 18,
+  "fields": {
+    "attempt": 7,
+    "question": 12,
+    "selected_choice": 46,
+    "is_correct": false,
+    "answered_at": "2026-11-19T09:26:35.921Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 19,
+  "fields": {
+    "attempt": 7,
+    "question": 11,
+    "selected_choice": 42,
+    "is_correct": false,
+    "answered_at": "2026-11-19T09:26:36.200Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 20,
+  "fields": {
+    "attempt": 8,
+    "question": 15,
+    "selected_choice": 59,
+    "is_correct": false,
+    "answered_at": "2026-11-19T09:26:37.589Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 21,
+  "fields": {
+    "attempt": 8,
+    "question": 14,
+    "selected_choice": 55,
+    "is_correct": false,
+    "answered_at": "2026-11-19T09:26:37.944Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 22,
+  "fields": {
+    "attempt": 9,
+    "question": 13,
+    "selected_choice": 49,
+    "is_correct": true,
+    "answered_at": "2026-11-19T09:26:41.067Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 23,
+  "fields": {
+    "attempt": 9,
+    "question": 12,
+    "selected_choice": 45,
+    "is_correct": true,
+    "answered_at": "2026-11-19T09:26:41.400Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 24,
+  "fields": {
+    "attempt": 9,
+    "question": 11,
+    "selected_choice": 41,
+    "is_correct": true,
+    "answered_at": "2026-11-19T09:26:41.611Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 25,
+  "fields": {
+    "attempt": 10,
+    "question": 15,
+    "selected_choice": 57,
+    "is_correct": true,
+    "answered_at": "2026-11-19T09:26:42.579Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 26,
+  "fields": {
+    "attempt": 10,
+    "question": 14,
+    "selected_choice": 53,
+    "is_correct": true,
+    "answered_at": "2026-11-19T09:26:42.788Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 27,
+  "fields": {
+    "attempt": 11,
+    "question": 17,
+    "selected_choice": 65,
+    "is_correct": true,
+    "answered_at": "2026-11-19T09:26:43.857Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 28,
+  "fields": {
+    "attempt": 11,
+    "question": 16,
+    "selected_choice": 61,
+    "is_correct": true,
+    "answered_at": "2026-11-19T09:26:44.201Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 29,
+  "fields": {
+    "attempt": 12,
+    "question": 15,
+    "selected_choice": 57,
+    "is_correct": true,
+    "answered_at": "2026-11-19T09:26:47.680Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 30,
+  "fields": {
+    "attempt": 12,
+    "question": 14,
+    "selected_choice": 53,
+    "is_correct": true,
+    "answered_at": "2026-11-19T09:26:48.001Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 31,
+  "fields": {
+    "attempt": 13,
+    "question": 17,
+    "selected_choice": 65,
+    "is_correct": true,
+    "answered_at": "2026-11-19T09:26:49.779Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 32,
+  "fields": {
+    "attempt": 13,
+    "question": 16,
+    "selected_choice": 61,
+    "is_correct": true,
+    "answered_at": "2026-11-19T09:26:50.156Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 33,
+  "fields": {
+    "attempt": 14,
+    "question": 19,
+    "selected_choice": 73,
+    "is_correct": true,
+    "answered_at": "2026-11-19T09:26:51.457Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 34,
+  "fields": {
+    "attempt": 14,
+    "question": 18,
+    "selected_choice": 69,
+    "is_correct": true,
+    "answered_at": "2026-11-19T09:26:51.823Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 35,
+  "fields": {
+    "attempt": 5,
+    "question": 5,
+    "selected_choice": 19,
+    "is_correct": false,
+    "answered_at": "2026-11-19T09:26:52.884Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 36,
+  "fields": {
+    "attempt": 15,
+    "question": 17,
+    "selected_choice": 66,
+    "is_correct": false,
+    "answered_at": "2026-11-19T09:26:56.535Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 37,
+  "fields": {
+    "attempt": 15,
+    "question": 16,
+    "selected_choice": 64,
+    "is_correct": false,
+    "answered_at": "2026-11-19T09:26:56.868Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 38,
+  "fields": {
+    "attempt": 16,
+    "question": 19,
+    "selected_choice": 76,
+    "is_correct": false,
+    "answered_at": "2026-11-19T09:26:58.192Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 39,
+  "fields": {
+    "attempt": 16,
+    "question": 18,
+    "selected_choice": 71,
+    "is_correct": false,
+    "answered_at": "2026-11-19T09:26:58.546Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 40,
+  "fields": {
+    "attempt": 17,
+    "question": 20,
+    "selected_choice": 78,
+    "is_correct": false,
+    "answered_at": "2026-11-19T09:27:01.224Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 41,
+  "fields": {
+    "attempt": 18,
+    "question": 19,
+    "selected_choice": 73,
+    "is_correct": true,
+    "answered_at": "2026-11-19T09:27:04.991Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 42,
+  "fields": {
+    "attempt": 18,
+    "question": 18,
+    "selected_choice": 69,
+    "is_correct": true,
+    "answered_at": "2026-11-19T09:27:05.313Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 43,
+  "fields": {
+    "attempt": 19,
+    "question": 20,
+    "selected_choice": 77,
+    "is_correct": true,
+    "answered_at": "2026-11-19T09:27:06.625Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 44,
+  "fields": {
+    "attempt": 20,
+    "question": 22,
+    "selected_choice": 85,
+    "is_correct": true,
+    "answered_at": "2026-11-19T09:27:08.025Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 45,
+  "fields": {
+    "attempt": 20,
+    "question": 21,
+    "selected_choice": 81,
+    "is_correct": true,
+    "answered_at": "2026-11-19T09:27:08.380Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 46,
+  "fields": {
+    "attempt": 21,
+    "question": 20,
+    "selected_choice": 77,
+    "is_correct": true,
+    "answered_at": "2026-11-19T09:27:12.159Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 47,
+  "fields": {
+    "attempt": 22,
+    "question": 22,
+    "selected_choice": 85,
+    "is_correct": true,
+    "answered_at": "2026-11-19T09:27:13.481Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 48,
+  "fields": {
+    "attempt": 22,
+    "question": 21,
+    "selected_choice": 81,
+    "is_correct": true,
+    "answered_at": "2026-11-19T09:27:13.825Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 49,
+  "fields": {
+    "attempt": 23,
+    "question": 23,
+    "selected_choice": 89,
+    "is_correct": true,
+    "answered_at": "2026-11-19T09:27:15.214Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 50,
+  "fields": {
+    "attempt": 24,
+    "question": 22,
+    "selected_choice": 88,
+    "is_correct": false,
+    "answered_at": "2026-11-19T09:27:19.304Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 51,
+  "fields": {
+    "attempt": 24,
+    "question": 21,
+    "selected_choice": 83,
+    "is_correct": false,
+    "answered_at": "2026-11-19T09:27:19.647Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 52,
+  "fields": {
+    "attempt": 25,
+    "question": 23,
+    "selected_choice": 92,
+    "is_correct": false,
+    "answered_at": "2026-11-19T09:27:21.059Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 53,
+  "fields": {
+    "attempt": 26,
+    "question": 24,
+    "selected_choice": 96,
+    "is_correct": false,
+    "answered_at": "2026-11-19T09:27:22.504Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 54,
+  "fields": {
+    "attempt": 5,
+    "question": 6,
+    "selected_choice": 21,
+    "is_correct": false,
+    "answered_at": "2026-11-19T09:27:23.450Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 55,
+  "fields": {
+    "attempt": 27,
+    "question": 23,
+    "selected_choice": 89,
+    "is_correct": true,
+    "answered_at": "2026-11-19T09:27:26.217Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 56,
+  "fields": {
+    "attempt": 28,
+    "question": 24,
+    "selected_choice": 93,
+    "is_correct": true,
+    "answered_at": "2026-11-19T09:27:27.572Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 57,
+  "fields": {
+    "attempt": 29,
+    "question": 25,
+    "selected_choice": 97,
+    "is_correct": true,
+    "answered_at": "2026-11-19T09:27:28.938Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 58,
+  "fields": {
+    "attempt": 30,
+    "question": 10,
+    "selected_choice": 37,
+    "is_correct": true,
+    "answered_at": "2026-11-19T09:27:32.572Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 59,
+  "fields": {
+    "attempt": 30,
+    "question": 9,
+    "selected_choice": 33,
+    "is_correct": true,
+    "answered_at": "2026-11-19T09:27:32.906Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 60,
+  "fields": {
+    "attempt": 30,
+    "question": 8,
+    "selected_choice": 29,
+    "is_correct": true,
+    "answered_at": "2026-11-19T09:27:33.248Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 61,
+  "fields": {
+    "attempt": 31,
+    "question": 24,
+    "selected_choice": 93,
+    "is_correct": true,
+    "answered_at": "2026-11-19T09:27:34.605Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 62,
+  "fields": {
+    "attempt": 32,
+    "question": 25,
+    "selected_choice": 97,
+    "is_correct": true,
+    "answered_at": "2026-11-19T09:27:36.105Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 63,
+  "fields": {
+    "attempt": 33,
+    "question": 10,
+    "selected_choice": 40,
+    "is_correct": false,
+    "answered_at": "2026-11-19T09:27:39.917Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 64,
+  "fields": {
+    "attempt": 33,
+    "question": 9,
+    "selected_choice": 36,
+    "is_correct": false,
+    "answered_at": "2026-11-19T09:27:40.237Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 65,
+  "fields": {
+    "attempt": 33,
+    "question": 8,
+    "selected_choice": 32,
+    "is_correct": false,
+    "answered_at": "2026-11-19T09:27:40.582Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 66,
+  "fields": {
+    "attempt": 34,
+    "question": 13,
+    "selected_choice": 50,
+    "is_correct": false,
+    "answered_at": "2026-11-19T09:27:41.949Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 67,
+  "fields": {
+    "attempt": 34,
+    "question": 12,
+    "selected_choice": 47,
+    "is_correct": false,
+    "answered_at": "2026-11-19T09:27:42.282Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 68,
+  "fields": {
+    "attempt": 34,
+    "question": 11,
+    "selected_choice": 43,
+    "is_correct": false,
+    "answered_at": "2026-11-19T09:27:42.615Z"
+  }
+},
+{
+  "model": "myapp.studentanswer",
+  "pk": 69,
+  "fields": {
+    "attempt": 35,
+    "question": 25,
+    "selected_choice": 99,
+    "is_correct": false,
+    "answered_at": "2026-11-19T09:27:43.973Z"
+  }
+},
+{
+  "model": "myapp.examassignmentdate",
+  "pk": 1,
+  "fields": {
+    "exam": 1,
+    "student_class": 1,
+    "assigned_at": "2026-11-18T11:49:56.403Z"
+  }
+},
+{
+  "model": "myapp.examassignmentdate",
+  "pk": 2,
+  "fields": {
+    "exam": 2,
+    "student_class": 1,
+    "assigned_at": "2026-11-18T11:50:02.859Z"
+  }
+},
+{
+  "model": "myapp.examassignmentdate",
+  "pk": 3,
+  "fields": {
+    "exam": 4,
+    "student_class": 3,
+    "assigned_at": "2026-11-19T09:25:38.697Z"
+  }
+},
+{
+  "model": "myapp.examassignmentdate",
+  "pk": 4,
+  "fields": {
+    "exam": 5,
+    "student_class": 4,
+    "assigned_at": "2026-11-19T09:25:44.909Z"
+  }
+},
+{
+  "model": "myapp.examassignmentdate",
+  "pk": 5,
+  "fields": {
+    "exam": 6,
+    "student_class": 5,
+    "assigned_at": "2026-11-19T09:25:51.154Z"
+  }
+},
+{
+  "model": "myapp.examassignmentdate",
+  "pk": 6,
+  "fields": {
+    "exam": 7,
+    "student_class": 6,
+    "assigned_at": "2026-11-19T09:25:56.555Z"
+  }
+},
+{
+  "model": "myapp.examassignmentdate",
+  "pk": 7,
+  "fields": {
+    "exam": 8,
+    "student_class": 7,
+    "assigned_at": "2026-11-19T09:26:02.033Z"
+  }
+},
+{
+  "model": "myapp.examassignmentdate",
+  "pk": 8,
+  "fields": {
+    "exam": 9,
+    "student_class": 8,
+    "assigned_at": "2026-11-19T09:26:07.444Z"
+  }
+},
+{
+  "model": "myapp.examassignmentdate",
+  "pk": 9,
+  "fields": {
+    "exam": 10,
+    "student_class": 9,
+    "assigned_at": "2026-11-19T09:26:11.655Z"
+  }
+},
+{
+  "model": "myapp.examassignmentdate",
+  "pk": 10,
+  "fields": {
+    "exam": 11,
+    "student_class": 10,
+    "assigned_at": "2026-11-19T09:26:17.912Z"
+  }
+},
+{
+  "model": "myapp.examassignmentdate",
+  "pk": 11,
+  "fields": {
+    "exam": 12,
+    "student_class": 11,
+    "assigned_at": "2026-11-19T09:26:23.500Z"
+  }
+},
+{
+  "model": "myapp.examassignmentdate",
+  "pk": 12,
+  "fields": {
+    "exam": 13,
+    "student_class": 12,
+    "assigned_at": "2026-11-19T09:26:28.367Z"
+  }
+}
+]

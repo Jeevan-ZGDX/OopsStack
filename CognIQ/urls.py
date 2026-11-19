@@ -17,6 +17,11 @@ urlpatterns = [
     # Authentication URLs (django-allauth) — login/logout only
     path('accounts/', include('allauth.urls')),
 
+<<<<<<< HEAD
+=======
+    # API URLs for Next.js Frontend
+    path('api/', include('myapp.api.urls')),
+>>>>>>> f81bc8d (next changes)
     # App URLs
     path('', include('myapp.urls')),
 ]
