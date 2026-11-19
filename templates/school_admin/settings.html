@@ -1,0 +1,127 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}School Settings — {{ school.name }} | CognIQ{% endblock %}
+
+{% block content %}
+<div class="min-h-screen bg-gray-50">
+
+  <!-- Header -->
+  <div class="bg-slate-900 text-white py-8 px-6">
+    <div class="max-w-4xl mx-auto flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+      <div>
+        <a href="{% url 'school_admin_dashboard' %}" class="text-indigo-400 hover:text-indigo-300 text-sm font-medium inline-flex items-center gap-1 mb-2">
+          ← Back to Dashboard
+        </a>
+        <h1 class="text-2xl font-extrabold">School Settings</h1>
+        <p class="text-slate-400 text-sm mt-1">Manage official profile for {{ school.name }}</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Settings Form -->
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 py-8">
+    <div class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+      
+      <div class="px-6 sm:px-8 py-6 border-b border-gray-50 bg-gray-50/50">
+        <h2 class="text-lg font-bold text-gray-900">General Information</h2>
+        <p class="text-sm text-gray-500 mt-1">Update the profile details, logo, and contact info of your school.</p>
+      </div>
+
+      <form method="post" enctype="multipart/form-data" class="px-6 sm:px-8 py-8 space-y-6">
+        {% csrf_token %}
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="space-y-2">
+            <label class="block text-sm font-semibold text-gray-700">School Name</label>
+            {{ form.name }}
+            {% if form.name.errors %}
+              <p class="text-red-500 text-xs mt-1">{{ form.name.errors.0 }}</p>
+            {% endif %}
+          </div>
+          
+          <div class="space-y-2">
+            <label class="block text-sm font-semibold text-gray-700">Contact Email</label>
+            {{ form.email }}
+            {% if form.email.errors %}
+              <p class="text-red-500 text-xs mt-1">{{ form.email.errors.0 }}</p>
+            {% endif %}
+          </div>
+          
+          <div class="space-y-2">
+            <label class="block text-sm font-semibold text-gray-700">Phone Number</label>
+            {{ form.phone }}
+            {% if form.phone.errors %}
+              <p class="text-red-500 text-xs mt-1">{{ form.phone.errors.0 }}</p>
+            {% endif %}
+          </div>
+          
+          <div class="space-y-2">
+            <label class="block text-sm font-semibold text-gray-700">School Logo</label>
+            <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 p-4 border border-dashed border-gray-200 rounded-xl bg-gray-50/50">
+              {% if school.logo %}
+                <div class="relative group mx-auto sm:mx-0 shrink-0">
+                  <img src="{{ school.logo.url }}" alt="Current Logo" class="h-16 w-16 object-contain border border-gray-100 rounded-xl shadow-sm bg-white p-1">
+                  <button type="submit" name="remove_logo" value="true" class="absolute -top-2 -right-2 bg-red-100 text-red-600 hover:bg-red-600 hover:text-white rounded-full p-1 transition-colors shadow-sm" title="Remove Logo" onclick="return confirm('Remove custom school logo?');">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+                  </button>
+                </div>
+              {% else %}
+                <div class="relative group mx-auto sm:mx-0 shrink-0">
+                  <img src="{% static 'assets/logo.png' %}" alt="Default CognIQ Logo" class="h-16 w-16 object-contain border border-gray-100 rounded-xl shadow-sm bg-white p-1">
+                  <div class="absolute -bottom-2 -right-2 bg-slate-100 text-slate-500 rounded-full px-1.5 py-0.5 text-[10px] font-bold border border-slate-200">
+                    Default
+                  </div>
+                </div>
+              {% endif %}
+              <div class="flex-1 min-w-0 w-full text-center sm:text-left">
+                {{ form.logo }}
+                <p class="text-[11px] text-gray-400 mt-1.5">Recommended: Square PNG/JPEG, max 2MB</p>
+                {% if form.logo.errors %}
+                  <p class="text-red-500 text-xs mt-1">{{ form.logo.errors.0 }}</p>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <label class="block text-sm font-semibold text-gray-700">School Address</label>
+          {{ form.address }}
+          {% if form.address.errors %}
+            <p class="text-red-500 text-xs mt-1">{{ form.address.errors.0 }}</p>
+          {% endif %}
+        </div>
+        
+        <div class="pt-6 border-t border-gray-100 flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
+          <button type="submit" class="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-xl transition-all shadow-lg shadow-indigo-100 text-sm text-center">
+            Save Changes
+          </button>
+          <a href="{% url 'school_admin_dashboard' %}" class="px-6 py-3 bg-gray-50 border border-gray-200 text-gray-700 font-semibold rounded-xl hover:bg-gray-100 hover:border-gray-300 transition-all text-sm text-center">
+            Cancel
+          </a>
+        </div>
+      </form>
+      
+    </div>
+    
+    <!-- Readonly Information -->
+    <div class="mt-8 bg-slate-50 border border-slate-200/60 rounded-2xl p-6">
+      <h3 class="text-sm font-bold text-slate-800 mb-4 flex items-center gap-2">
+        <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+        System Identifiers (Read-only)
+      </h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+
+        <div>
+          <label class="block text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1">URL Slug</label>
+          <div class="px-4 py-3 bg-white border border-slate-200/60 rounded-xl text-slate-700 font-mono text-sm shadow-sm select-all">
+            {{ school.slug }}
+          </div>
+          <p class="text-[11px] text-slate-400 mt-1">Direct portal web-address identifier.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+{% endblock %}

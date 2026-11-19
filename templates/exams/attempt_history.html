@@ -1,0 +1,310 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ page_title }}{% endblock %}
+
+{% block content %}
+<div class="min-h-screen bg-slate-50 pb-16">
+    <!-- Sleek Header -->
+    <div class="bg-white border-b border-slate-200 sticky top-0 z-30">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+            <div class="flex flex-col md:flex-row justify-between md:items-center gap-4">
+                <div>
+                    <nav class="flex items-center gap-2 text-xs font-medium text-slate-500 mb-1">
+                        <a href="{% url 'student_dashboard' %}" class="hover:text-blue-600 transition-colors">Dashboard</a>
+                        <span>/</span>
+                        <a href="{% url 'student_exam_list' %}" class="hover:text-blue-600 transition-colors">Exams</a>
+                        <span>/</span>
+                        <span class="text-slate-800">History</span>
+                    </nav>
+                    <div class="flex items-center gap-2">
+                        <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <h1 class="text-xl font-bold text-slate-900 tracking-tight">Exam History</h1>
+                    </div>
+                </div>
+                
+                <!-- Compact Stats Row -->
+                <div class="flex items-center gap-4 sm:gap-6 border-l pl-4 border-slate-200">
+                    <div>
+                        <p class="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Exams Taken</p>
+                        <p class="text-lg font-black text-slate-800 leading-none mt-0.5">{{ unique_exams }}</p>
+                    </div>
+                    <div>
+                        <p class="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Passed</p>
+                        <p class="text-lg font-black text-emerald-600 leading-none mt-0.5">{{ passed_exams }}</p>
+                    </div>
+                    <div>
+                        <p class="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Avg Score</p>
+                        <p class="text-lg font-black text-blue-600 leading-none mt-0.5">{{ avg_score }}%</p>
+                    </div>
+                    <div>
+                        <p class="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Attempts</p>
+                        <p class="text-lg font-black text-slate-800 leading-none mt-0.5">{{ total_attempts }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+        
+        <!-- Filters Bar (Compact) -->
+        {% if total_attempts > 0 %}
+        <div class="bg-white rounded-lg shadow-sm border border-slate-200 p-2 mb-4">
+            <form method="get" class="flex flex-col sm:flex-row gap-2">
+                <div class="flex-grow relative">
+                    <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                        <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                    </div>
+                    <input type="text" name="search" value="{{ search_query }}" placeholder="Search exams..." class="w-full pl-9 pr-3 py-1.5 bg-slate-50 border border-slate-200 rounded-md text-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:bg-white transition-all">
+                </div>
+                <div class="sm:w-40 shrink-0">
+                    <select name="subject" class="w-full px-3 py-1.5 bg-slate-50 border border-slate-200 rounded-md text-sm focus:outline-none focus:ring-1 focus:ring-blue-500 cursor-pointer">
+                        <option value="">All Subjects</option>
+                        {% for subj in available_subjects %}
+                        <option value="{{ subj }}" {% if current_subject == subj %}selected{% endif %}>{{ subj }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="sm:w-36 shrink-0">
+                    <select name="status" class="w-full px-3 py-1.5 bg-slate-50 border border-slate-200 rounded-md text-sm focus:outline-none focus:ring-1 focus:ring-blue-500 cursor-pointer">
+                        <option value="">All Statuses</option>
+                        <option value="passed" {% if current_status == 'passed' %}selected{% endif %}>Passed</option>
+                        <option value="failed" {% if current_status == 'failed' %}selected{% endif %}>Failed</option>
+                    </select>
+                </div>
+                <button type="submit" class="px-4 py-1.5 bg-slate-800 text-white text-sm font-semibold rounded-md hover:bg-slate-900 transition-colors shrink-0">Filter</button>
+                {% if search_query or current_subject or current_status %}
+                <a href="{% url 'attempt_history' %}" class="px-3 py-1.5 text-slate-500 text-sm font-medium hover:text-slate-800 transition-colors flex items-center">Clear</a>
+                {% endif %}
+            </form>
+        </div>
+        {% endif %}
+
+        {% if page_obj %}
+            <!-- Desktop Data Table (Hidden on Mobile) -->
+            <div class="hidden sm:block bg-white rounded-lg shadow-sm border border-slate-200 overflow-hidden">
+                <table class="w-full text-left border-collapse">
+                    <thead>
+                        <tr class="bg-slate-50/80 border-b border-slate-200">
+                            <th class="px-4 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider w-5/12">Exam</th>
+                            <th class="px-4 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider text-center">Status</th>
+                            <th class="px-4 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider text-center">Best</th>
+                            <th class="px-4 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider text-center">Latest</th>
+                            <th class="px-4 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider text-center">Attempts</th>
+                            <th class="px-4 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider text-right">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-100">
+                        {% for exam_data in page_obj %}
+                        <!-- Main Exam Row -->
+                        <tr class="hover:bg-slate-50/50 transition-colors group">
+                            <td class="px-4 py-3">
+                                <div class="flex items-center gap-2 mb-1">
+                                    <span class="px-1.5 py-0.5 rounded text-[9px] font-bold bg-slate-100 text-slate-600 uppercase tracking-wide border border-slate-200">
+                                        {{ exam_data.exam.subject }}
+                                    </span>
+                                </div>
+                                <h3 class="text-sm font-bold text-slate-900 leading-tight group-hover:text-blue-600 transition-colors line-clamp-1">{{ exam_data.exam.title }}</h3>
+                                <p class="text-[10px] text-slate-400 mt-0.5">Last: {{ exam_data.latest_attempt.submitted_at|date:"M d, Y" }}</p>
+                            </td>
+                            <td class="px-4 py-3 text-center">
+                                {% if exam_data.passed %}
+                                <span class="px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-50 text-emerald-700 border border-emerald-100">Passed</span>
+                                {% else %}
+                                <span class="px-2 py-0.5 rounded-full text-[10px] font-bold bg-rose-50 text-rose-700 border border-rose-100">Failed</span>
+                                {% endif %}
+                            </td>
+                            <td class="px-4 py-3 text-center">
+                                <span class="text-sm font-black text-emerald-600">{{ exam_data.best_attempt.percentage }}%</span>
+                            </td>
+                            <td class="px-4 py-3 text-center">
+                                <span class="text-sm font-bold text-slate-800">{{ exam_data.latest_attempt.percentage }}%</span>
+                                <div class="text-[10px] text-slate-400">{{ exam_data.latest_attempt.duration_taken }}m</div>
+                            </td>
+                            <td class="px-4 py-3 text-center">
+                                {% if exam_data.total_attempts > 1 %}
+                                <button onclick="toggleHistory('desktop-history-{{ exam_data.exam.id }}')" class="inline-flex items-center gap-1 px-2 py-1 bg-slate-100 text-slate-600 text-xs font-semibold rounded hover:bg-slate-200 transition-colors">
+                                    {{ exam_data.total_attempts }} 
+                                    <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                                </button>
+                                {% else %}
+                                <span class="text-xs font-medium text-slate-500">1</span>
+                                {% endif %}
+                            </td>
+                            <td class="px-4 py-3 text-right">
+                                <a href="{% url 'exam_results' exam_data.latest_attempt.pk %}" class="inline-flex items-center justify-center px-3 py-1.5 bg-blue-50 text-blue-700 text-xs font-bold rounded-md hover:bg-blue-100 transition-colors">
+                                    Results
+                                </a>
+                            </td>
+                        </tr>
+                        
+                        <!-- Expandable Sub-table for Multiple Attempts -->
+                        {% if exam_data.total_attempts > 1 %}
+                        <tr id="desktop-history-{{ exam_data.exam.id }}" class="hidden bg-slate-50 border-t-0 shadow-inner">
+                            <td colspan="6" class="p-0">
+                                <div class="px-10 py-3">
+                                    <table class="w-full text-left">
+                                        <thead>
+                                            <tr class="text-[10px] text-slate-400 uppercase tracking-wider border-b border-slate-200">
+                                                <th class="pb-2 font-semibold">Attempt</th>
+                                                <th class="pb-2 font-semibold">Date & Time</th>
+                                                <th class="pb-2 font-semibold text-center">Score</th>
+                                                <th class="pb-2 font-semibold text-center">Result</th>
+                                                <th class="pb-2 font-semibold text-center">Duration</th>
+                                                <th class="pb-2 font-semibold text-right">Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="divide-y divide-slate-100">
+                                            {% for attempt in exam_data.attempts %}
+                                            <tr class="hover:bg-white transition-colors group">
+                                                <td class="py-2">
+                                                    <div class="flex items-center gap-2 text-xs">
+                                                        <span class="font-semibold text-slate-600">#{{ forloop.revcounter }}</span>
+                                                        {% if attempt == exam_data.best_attempt %}
+                                                        <span class="px-1.5 py-0.5 rounded text-[8px] font-bold bg-amber-100 text-amber-700 uppercase tracking-wide">Best</span>
+                                                        {% endif %}
+                                                    </div>
+                                                </td>
+                                                <td class="py-2 text-xs text-slate-500">{{ attempt.submitted_at|date:"M d, Y, h:i A" }}</td>
+                                                <td class="py-2 text-xs font-medium text-slate-700 text-center">{{ attempt.score|floatformat:0 }} / {{ attempt.total_marks }}</td>
+                                                <td class="py-2 text-center">
+                                                    <span class="text-xs font-bold {% if attempt.passed %}text-emerald-600{% else %}text-rose-600{% endif %}">{{ attempt.percentage }}%</span>
+                                                </td>
+                                                <td class="py-2 text-xs text-slate-500 text-center">{{ attempt.duration_taken }}m</td>
+                                                <td class="py-2 text-right">
+                                                    <a href="{% url 'exam_results' attempt.pk %}" class="text-xs font-bold text-blue-600 hover:text-blue-800 hover:underline">View</a>
+                                                </td>
+                                            </tr>
+                                            {% endfor %}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </td>
+                        </tr>
+                        {% endif %}
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Mobile Compact List View (Hidden on Desktop) -->
+            <div class="sm:hidden space-y-3">
+                {% for exam_data in page_obj %}
+                <div class="bg-white rounded-lg shadow-sm border border-slate-200 overflow-hidden">
+                    <div class="p-3">
+                        <div class="flex justify-between items-start mb-2">
+                            <span class="px-1.5 py-0.5 rounded text-[9px] font-bold bg-slate-100 text-slate-600 uppercase border border-slate-200">
+                                {{ exam_data.exam.subject }}
+                            </span>
+                            {% if exam_data.passed %}
+                            <span class="px-2 py-0.5 rounded text-[9px] font-bold bg-emerald-50 text-emerald-700 border border-emerald-100">Passed</span>
+                            {% else %}
+                            <span class="px-2 py-0.5 rounded text-[9px] font-bold bg-rose-50 text-rose-700 border border-rose-100">Failed</span>
+                            {% endif %}
+                        </div>
+                        <h3 class="text-sm font-bold text-slate-900 leading-tight mb-2">{{ exam_data.exam.title }}</h3>
+                        
+                        <div class="flex justify-between items-end mt-2 pt-2 border-t border-slate-100">
+                            <div class="flex gap-4">
+                                <div>
+                                    <p class="text-[9px] text-slate-400 uppercase font-bold">Best</p>
+                                    <p class="text-sm font-black text-emerald-600 leading-none">{{ exam_data.best_attempt.percentage }}%</p>
+                                </div>
+                                <div>
+                                    <p class="text-[9px] text-slate-400 uppercase font-bold">Latest</p>
+                                    <p class="text-sm font-bold text-slate-800 leading-none">{{ exam_data.latest_attempt.percentage }}%</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                {% if exam_data.total_attempts > 1 %}
+                                <button onclick="toggleHistory('mobile-history-{{ exam_data.exam.id }}')" class="px-2 py-1 bg-slate-50 text-slate-600 text-xs font-semibold rounded border border-slate-200">
+                                    {{ exam_data.total_attempts }} Tries <span class="text-[8px]">▼</span>
+                                </button>
+                                {% endif %}
+                                <a href="{% url 'exam_results' exam_data.latest_attempt.pk %}" class="px-3 py-1 bg-blue-50 text-blue-700 text-xs font-bold rounded">View</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    {% if exam_data.total_attempts > 1 %}
+                    <div id="mobile-history-{{ exam_data.exam.id }}" class="hidden bg-slate-50 border-t border-slate-200 p-2 space-y-2">
+                        {% for attempt in exam_data.attempts %}
+                        <div class="flex justify-between items-center bg-white p-2 rounded border border-slate-100">
+                            <div>
+                                <div class="flex items-center gap-1.5 mb-0.5">
+                                    <span class="text-[10px] font-bold text-slate-700">#{{ forloop.revcounter }}</span>
+                                    {% if attempt == exam_data.best_attempt %}
+                                    <span class="px-1 py-0.5 rounded text-[7px] font-bold bg-amber-100 text-amber-700 uppercase">Best</span>
+                                    {% endif %}
+                                    <span class="text-[9px] text-slate-400">{{ attempt.submitted_at|date:"M d" }}</span>
+                                </div>
+                                <div class="flex items-baseline gap-1">
+                                    <span class="text-xs font-black {% if attempt.passed %}text-emerald-600{% else %}text-rose-600{% endif %}">{{ attempt.percentage }}%</span>
+                                    <span class="text-[9px] text-slate-500">({{ attempt.duration_taken }}m)</span>
+                                </div>
+                            </div>
+                            <a href="{% url 'exam_results' attempt.pk %}" class="text-[10px] font-bold text-blue-600">View</a>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+
+            <!-- Pagination (Compact) -->
+            {% if page_obj.has_other_pages %}
+            <div class="flex justify-center mt-6">
+                <nav class="flex items-center gap-1 bg-white rounded-md border border-slate-200 shadow-sm p-1">
+                    {% if page_obj.has_previous %}
+                        <a href="?page={{ page_obj.previous_page_number }}{% if search_query %}&search={{ search_query }}{% endif %}{% if current_subject %}&subject={{ current_subject }}{% endif %}{% if current_status %}&status={{ current_status }}{% endif %}" class="px-2.5 py-1 text-xs font-medium text-slate-600 hover:bg-slate-50 rounded transition-colors">Prev</a>
+                    {% endif %}
+                    
+                    <span class="px-3 py-1 text-xs font-semibold text-slate-800 bg-slate-100 rounded">
+                        {{ page_obj.number }} / {{ page_obj.paginator.num_pages }}
+                    </span>
+
+                    {% if page_obj.has_next %}
+                        <a href="?page={{ page_obj.next_page_number }}{% if search_query %}&search={{ search_query }}{% endif %}{% if current_subject %}&subject={{ current_subject }}{% endif %}{% if current_status %}&status={{ current_status }}{% endif %}" class="px-2.5 py-1 text-xs font-medium text-slate-600 hover:bg-slate-50 rounded transition-colors">Next</a>
+                    {% endif %}
+                </nav>
+            </div>
+            {% endif %}
+
+        {% else %}
+            {% if total_attempts > 0 %}
+                <!-- No Search Results State -->
+                <div class="bg-white rounded-lg shadow-sm border border-slate-200 p-8 text-center mt-4">
+                    <p class="text-sm text-slate-500 font-medium">No history records match your search criteria.</p>
+                    <a href="{% url 'attempt_history' %}" class="inline-block mt-2 text-blue-600 text-sm font-bold hover:underline">Clear Filters</a>
+                </div>
+            {% else %}
+                <!-- Empty State -->
+                <div class="bg-white rounded-lg shadow-sm border border-slate-200 p-12 text-center">
+                    <div class="bg-blue-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-1">No Exam History Yet</h3>
+                    <p class="text-sm text-slate-500 mb-6 max-w-sm mx-auto">Start an exam to track your performance and see your history here.</p>
+                    <a href="{% url 'student_exam_list' %}" class="inline-flex items-center px-4 py-2 bg-slate-800 text-white text-sm font-bold rounded-md hover:bg-slate-900 transition-colors">
+                        Browse Exams
+                    </a>
+                </div>
+            {% endif %}
+        {% endif %}
+
+    </div>
+</div>
+
+<script>
+// Toggle attempt history visibility
+function toggleHistory(elementId) {
+    const element = document.getElementById(elementId);
+    if (element.classList.contains('hidden')) {
+        element.classList.remove('hidden');
+    } else {
+        element.classList.add('hidden');
+    }
+}
+</script>
+{% endblock %}

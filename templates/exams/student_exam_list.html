@@ -1,0 +1,264 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ page_title }}{% endblock %}
+
+{% block content %}
+<div class="min-h-screen bg-slate-50">
+    <!-- Dark Header Section -->
+    <div class="bg-[#0f172b] pt-8 pb-12 px-4 sm:px-6 lg:px-8 border-b border-indigo-900/50 relative overflow-hidden">
+        <!-- Background Gradients -->
+        <div class="absolute inset-0 bg-gradient-to-br from-indigo-500/10 via-purple-500/10 to-transparent pointer-events-none"></div>
+        
+        <div class="max-w-7xl mx-auto relative z-10">
+            <!-- Breadcrumbs -->
+            <nav class="flex items-center gap-2 text-sm font-medium text-slate-400 mb-6">
+                <a href="{% url 'student_dashboard' %}" class="hover:text-white transition-colors">Dashboard</a>
+                <span class="text-slate-600">/</span>
+                <span class="text-white">Available Exams</span>
+            </nav>
+
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-end gap-6">
+                <div>
+                     <div class="flex items-center gap-3 mb-2">
+                        <span class="text-3xl">📝</span>
+                        <h1 class="text-3xl sm:text-4xl font-black text-white tracking-tight">Available Exams</h1>
+                    </div>
+                    <p class="text-lg text-slate-400 font-medium ml-1">
+                        {% if total_exam_count %}{{ total_exam_count }} exam{{ total_exam_count|pluralize }} available{% else %}Select an exam to test your knowledge and track your progress{% endif %}
+                    </p>
+                </div>
+                 {% if attempted_exam_ids %}
+                <a href="{% url 'attempt_history' %}" class="flex items-center gap-2 px-5 py-2.5 bg-white/10 hover:bg-white/20 text-white rounded-xl font-bold text-sm backdrop-blur-md transition-all border border-white/10">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    </svg>
+                    View History
+                </a>
+                {% endif %}
+            </div>
+            
+            <!-- Search & Filters -->
+            {% if total_exam_count > 0 or search_query or date_filter or current_subject %}
+            <div class="mt-6">
+                <form method="get" action="{% url 'student_exam_list' %}" class="flex flex-col gap-3 max-w-3xl">
+                    {% if current_subject %}
+                    <input type="hidden" name="subject" value="{{ current_subject }}">
+                    {% endif %}
+                    
+                    <div class="flex flex-col sm:flex-row gap-3">
+                        <div class="relative flex-grow">
+                            <input type="text" 
+                                   name="search" 
+                                   value="{{ search_query|default:'' }}"
+                                   placeholder="Search exams by title, description, or subject..." 
+                                   class="w-full px-5 py-2.5 pl-11 bg-white/10 backdrop-blur-md border border-white/15 rounded-xl text-white text-sm placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-indigo-400/50 focus:border-indigo-400/50 transition-all hover:bg-white/15 shadow-sm"
+                                   autocomplete="off">
+                            <svg class="w-4 h-4 text-slate-400 absolute left-4 top-1/2 -translate-y-1/2 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                            </svg>
+                            {% if search_query %}
+                            <a href="?{% if date_filter %}date={{ date_filter }}{% endif %}{% if date_start %}&date_start={{ date_start }}{% endif %}{% if date_end %}&date_end={{ date_end }}{% endif %}{% if current_subject %}&subject={{ current_subject }}{% endif %}" class="absolute right-3 top-1/2 -translate-y-1/2 p-1.5 hover:bg-white/20 rounded-lg transition-colors group">
+                                <svg class="w-4 h-4 text-slate-400 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                                </svg>
+                            </a>
+                            {% endif %}
+                        </div>
+                        
+                        <div class="w-full sm:w-48 relative shrink-0">
+                            <select name="date" onchange="handleDateChange(this)" class="w-full appearance-none px-4 py-2.5 bg-white/10 backdrop-blur-md border border-white/15 rounded-xl text-white text-sm focus:outline-none focus:ring-2 focus:ring-indigo-400/50 focus:border-indigo-400/50 transition-all hover:bg-white/15 shadow-sm [&>option]:text-slate-900 cursor-pointer">
+                                <option value="" {% if not date_filter %}selected{% endif %}>Any Time</option>
+                                <option value="today" {% if date_filter == 'today' %}selected{% endif %}>Assigned Today</option>
+                                <option value="7days" {% if date_filter == '7days' %}selected{% endif %}>Last 7 Days</option>
+                                <option value="30days" {% if date_filter == '30days' %}selected{% endif %}>Last 30 Days</option>
+                                <option value="custom" {% if date_filter == 'custom' %}selected{% endif %}>Custom Range...</option>
+                            </select>
+                            <svg class="w-4 h-4 text-slate-400 absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </div>
+                    </div>
+                    
+                    <!-- Custom Date Container -->
+                    <div id="customDateContainer" class="{% if date_filter != 'custom' %}hidden{% endif %}">
+                        <div class="mt-1 bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-4 space-y-4">
+                            <!-- Header -->
+                            <div class="flex items-center gap-2">
+                                <svg class="w-4 h-4 text-indigo-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                                </svg>
+                                <span class="text-xs font-bold text-indigo-300 uppercase tracking-widest">Custom Date Range</span>
+                            </div>
+
+                            <!-- Date Inputs -->
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                <!-- From -->
+                                <div class="flex flex-col gap-1.5">
+                                    <label class="text-[11px] font-bold text-slate-400 uppercase tracking-wider pl-1">From</label>
+                                    <div class="relative">
+                                        <input type="date" name="date_start" value="{{ date_start|default:'' }}" 
+                                               class="w-full px-4 py-2.5 bg-white/10 backdrop-blur-md border border-white/15 rounded-xl text-white text-sm focus:outline-none focus:ring-2 focus:ring-indigo-400/50 focus:border-indigo-400/50 transition-all [&::-webkit-calendar-picker-indicator]:filter [&::-webkit-calendar-picker-indicator]:invert cursor-pointer">
+                                    </div>
+                                </div>
+                                <!-- To -->
+                                <div class="flex flex-col gap-1.5">
+                                    <label class="text-[11px] font-bold text-slate-400 uppercase tracking-wider pl-1">To</label>
+                                    <div class="relative">
+                                        <input type="date" name="date_end" value="{{ date_end|default:'' }}" 
+                                               class="w-full px-4 py-2.5 bg-white/10 backdrop-blur-md border border-white/15 rounded-xl text-white text-sm focus:outline-none focus:ring-2 focus:ring-indigo-400/50 focus:border-indigo-400/50 transition-all [&::-webkit-calendar-picker-indicator]:filter [&::-webkit-calendar-picker-indicator]:invert cursor-pointer">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Apply Button -->
+                            <div class="flex justify-end pt-1">
+                                <button type="submit" class="inline-flex items-center gap-2 px-5 py-2 bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700 text-white text-sm font-bold rounded-xl transition-all shadow-lg shadow-indigo-500/25 focus:outline-none focus:ring-2 focus:ring-indigo-400/60 focus:ring-offset-1 focus:ring-offset-transparent">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2a1 1 0 01-.293.707L13 13.414V19a1 1 0 01-.553.894l-4 2A1 1 0 017 21v-7.586L3.293 6.707A1 1 0 013 6V4z"/>
+                                    </svg>
+                                    Apply Range
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                {% if search_query %}
+                <p class="text-sm text-slate-300 mt-2 ml-1">
+                    Showing results for "<span class="font-semibold">{{ search_query }}</span>"
+                </p>
+                {% endif %}
+            </div>
+            {% endif %}
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-8 relative z-20 space-y-8 pb-20">
+
+        <!-- Subject Tabs (Tile Style) -->
+        <div class="mb-8 overflow-x-auto hide-scrollbar pb-4 -mx-4 px-4 sm:mx-0 sm:px-0">
+            <div class="flex items-stretch gap-3 w-max">
+                <!-- All Subjects Tile -->
+                <a href="?{% if search_query %}search={{ search_query }}{% endif %}{% if date_filter %}&date={{ date_filter }}{% endif %}{% if date_start %}&date_start={{ date_start }}{% endif %}{% if date_end %}&date_end={{ date_end }}{% endif %}" 
+                   class="flex flex-col items-center justify-center min-w-[100px] p-3 rounded-2xl border-2 transition-all duration-200 {% if not current_subject %}border-indigo-600 bg-indigo-50 shadow-md shadow-indigo-500/10{% else %}border-slate-200 bg-white hover:border-indigo-300 hover:bg-slate-50 shadow-sm{% endif %}">
+                    <span class="text-xl mb-1">📚</span>
+                    <span class="text-xs font-black tracking-tight {% if not current_subject %}text-indigo-700{% else %}text-slate-600{% endif %}">ALL</span>
+                </a>
+                
+                {% for subj in subjects %}
+                <a href="?subject={{ subj|urlencode }}{% if search_query %}&search={{ search_query }}{% endif %}{% if date_filter %}&date={{ date_filter }}{% endif %}{% if date_start %}&date_start={{ date_start }}{% endif %}{% if date_end %}&date_end={{ date_end }}{% endif %}" 
+                   class="flex flex-col items-center justify-center min-w-[100px] p-3 rounded-2xl border-2 transition-all duration-200 {% if current_subject == subj %}border-indigo-600 bg-indigo-50 shadow-md shadow-indigo-500/10{% else %}border-slate-200 bg-white hover:border-indigo-300 hover:bg-slate-50 shadow-sm{% endif %}">
+                    <!-- Icon logic based on subject -->
+                    {% if subj == "Aptitude" %}<span class="text-xl mb-1">🧠</span>
+                    {% elif subj == "GATE" %}<span class="text-xl mb-1">⚙️</span>
+                    {% else %}<span class="text-xl mb-1">📝</span>
+                    {% endif %}
+                    <span class="text-xs font-black tracking-tight truncate w-full text-center {% if current_subject == subj %}text-indigo-700{% else %}text-slate-600{% endif %}">{{ subj|truncatechars:15 }}</span>
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+
+        <!-- Available Exams Grid -->
+        {% if page_obj.object_list %}
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {% for exam in page_obj.object_list %}
+                    {% include 'exams/partials/exam_card.html' with exam=exam %}
+                {% endfor %}
+            </div>
+
+            <!-- Pagination -->
+            {% if page_obj.has_other_pages %}
+            <div class="flex items-center justify-between bg-white rounded-2xl shadow-sm border border-gray-200 px-6 py-4 mt-8">
+                <div class="text-sm text-gray-500">
+                    Page <span class="font-bold text-gray-900">{{ page_obj.number }}</span> of <span class="font-bold text-gray-900">{{ page_obj.paginator.num_pages }}</span>
+                    <span class="hidden sm:inline ml-1">· {{ total_exam_count }} exam{{ total_exam_count|pluralize }}</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    {% if page_obj.has_previous %}
+                        <a href="?page={{ page_obj.previous_page_number }}{% if search_query %}&search={{ search_query }}{% endif %}{% if current_subject %}&subject={{ current_subject }}{% endif %}{% if date_filter %}&date={{ date_filter }}{% endif %}{% if date_start %}&date_start={{ date_start }}{% endif %}{% if date_end %}&date_end={{ date_end }}{% endif %}" 
+                           class="inline-flex items-center gap-1 px-4 py-2 text-sm font-semibold text-gray-700 bg-white border border-gray-200 rounded-xl hover:bg-gray-50 hover:border-indigo-300 transition-all shadow-sm">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+                            Prev
+                        </a>
+                    {% endif %}
+                    {% if page_obj.has_next %}
+                        <a href="?page={{ page_obj.next_page_number }}{% if search_query %}&search={{ search_query }}{% endif %}{% if current_subject %}&subject={{ current_subject }}{% endif %}{% if date_filter %}&date={{ date_filter }}{% endif %}{% if date_start %}&date_start={{ date_start }}{% endif %}{% if date_end %}&date_end={{ date_end }}{% endif %}" 
+                           class="inline-flex items-center gap-1 px-4 py-2 text-sm font-semibold text-white bg-indigo-600 border border-indigo-600 rounded-xl hover:bg-indigo-700 transition-all shadow-sm">
+                            Next
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                        </a>
+                    {% endif %}
+                </div>
+            </div>
+            {% endif %}
+
+        {% else %}
+        <!-- Empty State -->
+        <div class="bg-white rounded-2xl shadow-xl border border-slate-200 p-12 text-center text-slate-500">
+             <div class="w-24 h-24 rounded-2xl bg-slate-50 flex items-center justify-center mx-auto mb-6 transform rotate-6">
+                <span class="text-5xl grayscale opacity-50">📚</span>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900 mb-2">No Exams Available</h3>
+            <p class="max-w-md mx-auto mb-8">
+                {% if search_query or current_subject %}
+                    No exams match your filters. Try different keywords or <a href="{% url 'student_exam_list' %}" class="text-indigo-600 hover:underline font-semibold">clear filters</a>.
+                {% else %}
+                    There are no open exams available for you at the moment. Please check back later or contact your instructor.
+                {% endif %}
+            </p>
+             <a href="{% url 'student_dashboard' %}" class="inline-flex px-6 py-2.5 bg-white border border-slate-200 text-slate-600 font-bold rounded-xl hover:bg-slate-50 transition-colors">
+                Return to Dashboard
+            </a>
+        </div>
+        {% endif %}
+
+    </div>
+</div>
+
+<script>
+function handleDateChange(select) {
+    if (select.value === 'custom') {
+        document.getElementById('customDateContainer').classList.remove('hidden');
+    } else {
+        document.getElementById('customDateContainer').classList.add('hidden');
+        select.form.submit();
+    }
+}
+
+// Auto-submit search form on input (with debounce for performance)
+let searchTimeout;
+const searchInput = document.querySelector('input[name="search"]');
+if (searchInput) {
+    searchInput.addEventListener('input', function() {
+        clearTimeout(searchTimeout);
+        searchTimeout = setTimeout(() => {
+            if (this.value.length >= 3 || this.value.length === 0) {
+                // Preserve subject param if it exists
+                const urlParams = new URLSearchParams(window.location.search);
+                const subject = urlParams.get('subject');
+                const date = urlParams.get('date');
+                const dateStart = urlParams.get('date_start');
+                const dateEnd = urlParams.get('date_end');
+                
+                let newUrl = window.location.pathname + '?search=' + encodeURIComponent(this.value);
+                if (subject) {
+                    newUrl += '&subject=' + encodeURIComponent(subject);
+                }
+                if (date) {
+                    newUrl += '&date=' + encodeURIComponent(date);
+                }
+                if (dateStart) {
+                    newUrl += '&date_start=' + encodeURIComponent(dateStart);
+                }
+                if (dateEnd) {
+                    newUrl += '&date_end=' + encodeURIComponent(dateEnd);
+                }
+                
+                window.location.href = newUrl;
+            }
+        }, 500); // 500ms debounce
+    });
+}
+</script>
+{% endblock %}
